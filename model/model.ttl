@@ -210,7 +210,7 @@ opo:Voedsel_Pizza
 opo:aantalGezinsLeden
   a rdf:Property ;
   rdfs:domain opo:Gezin ;
-  rdfs:label "aantal gezins leden" ;
+  rdfs:label "aantal gezinsleden" ;
   rdfs:range xsd:integer ;
 .
 opo:aantalInwoners
@@ -396,6 +396,10 @@ opo:kleur
   rdfs:domain opo:Goed ;
   rdfs:label "kleur" ;
   rdfs:range xsd:string ;
+.
+opo:leeftijd
+  a rdf:Property ;
+  rdfs:label "leeftijd" ;
 .
 opo:ligtIn
   a opo:LocatieRelatie ;

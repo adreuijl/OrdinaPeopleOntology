@@ -13,9 +13,14 @@
   a owl:Ontology ;
   owl:imports <http://datashapes.org/dash> ;
 .
-opo:
-  a owl:Ontology ;
-  owl:versionInfo "Created with TopBraid Composer" ;
+opo:Activiteit
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+.
+opo:ActiviteitRelatie
+  a owl:Class ;
+  a sh:NodeShape ;
+  rdfs:subClassOf opo:Relatie ;
 .
 opo:AdReuijl
   a opo:PersoonNaam ;
@@ -25,10 +30,10 @@ opo:AdReuijl
   opo:voornaam "Adrianus" ;
   rdfs:label "Ad reuijl" ;
 .
-opo:Adres
+opo:Auto
   a owl:Class ;
-  rdfs:label "Adres" ;
-  rdfs:subClassOf owl:Thing ;
+  a sh:NodeShape ;
+  rdfs:subClassOf opo:Goed ;
 .
 opo:Bedrijf
   a owl:Class ;
@@ -46,9 +51,9 @@ opo:Beroep
   rdfs:label "Beroep" ;
   rdfs:subClassOf owl:Thing ;
 .
-opo:DataAnalist
+opo:Beroep_dataanalist
   a opo:Beroep ;
-  opo:heeftFunctietitel "Business Intelligence Consultant II" ;
+  opo:functietitel "Business Intelligence Consultant II" ;
   rdfs:label "Data analist" ;
 .
 opo:Eigenschap
@@ -56,10 +61,30 @@ opo:Eigenschap
   rdfs:label "Kenmerk" ;
   rdfs:subClassOf owl:Thing ;
 .
+opo:Eten
+  a owl:Class ;
+  a sh:NodeShape ;
+  rdfs:subClassOf opo:Activiteit ;
+.
 opo:Gezin
   a owl:Class ;
   rdfs:label "Gezin" ;
   rdfs:subClassOf owl:Thing ;
+.
+opo:Goed
+  a owl:Class ;
+  a sh:NodeShape ;
+  rdfs:subClassOf owl:Thing ;
+.
+opo:HaarStructuur
+  a owl:Class ;
+  rdfs:subClassOf opo:Structuur ;
+.
+opo:HaarStructuur_kroes
+  a opo:HaarStructuur ;
+.
+opo:HaarStructuur_stijl
+  a opo:HaarStructuur ;
 .
 opo:Haarkleur
   a owl:Class ;
@@ -74,17 +99,11 @@ opo:Haarkleur_kastanje
   a opo:Haarkleur ;
   rdfs:label "kastanje" ;
 .
-opo:Hobby
-  a owl:Class ;
-  a sh:NodeShape ;
-  rdfs:label "Hobby" ;
-  rdfs:subClassOf owl:Thing ;
-.
 opo:Huis
   a owl:Class ;
   a sh:NodeShape ;
   rdfs:label "Huis" ;
-  rdfs:subClassOf owl:Thing ;
+  rdfs:subClassOf opo:Goed ;
 .
 opo:HuisNaam
   a owl:Class ;
@@ -111,10 +130,34 @@ opo:Kleur
   rdfs:label "Kleur" ;
   rdfs:subClassOf opo:Eigenschap ;
 .
+opo:Koken
+  a owl:Class ;
+  a sh:NodeShape ;
+  rdfs:subClassOf opo:Activiteit ;
+.
 opo:LichamelijkeEigenschap
   a owl:Class ;
   rdfs:label "Lichamelijke eigenschap" ;
+  rdfs:subClassOf opo:Eigenschap ;
   rdfs:subClassOf rdf:Property ;
+.
+opo:Locatie
+  a owl:Class ;
+  a sh:NodeShape ;
+  rdfs:subClassOf owl:Thing ;
+.
+opo:LocatieRelatie
+  a owl:Class ;
+  a sh:NodeShape ;
+  rdfs:subClassOf opo:Relatie ;
+.
+opo:Muziek
+  a owl:Class ;
+  a sh:NodeShape ;
+  rdfs:subClassOf opo:Activiteit ;
+.
+opo:Muziek_Pianospelen
+  a opo:Muziek ;
 .
 opo:Naam
   a owl:Class ;
@@ -141,11 +184,35 @@ opo:PersoonNaam
   rdfs:label "Naam" ;
   rdfs:subClassOf opo:Naam ;
 .
+opo:PersoonRelatie
+  a owl:Class ;
+  a sh:NodeShape ;
+  rdfs:subClassOf opo:Relatie ;
+.
+opo:Relatie
+  a owl:Class ;
+  a sh:NodeShape ;
+  rdfs:subClassOf rdf:Property ;
+.
+opo:Sport
+  a owl:Class ;
+  rdfs:subClassOf opo:Activiteit ;
+.
+opo:Sport_voetbal
+  a opo:Sport ;
+.
+opo:Structuur
+  a owl:Class ;
+  rdfs:subClassOf opo:Eigenschap ;
+.
 opo:aantalGezinsLeden
   a rdf:Property ;
   rdfs:domain opo:Gezin ;
   rdfs:label "aantal gezins leden" ;
   rdfs:range xsd:integer ;
+.
+opo:aardig
+  a opo:KarakterEigenschap ;
 .
 opo:achternaam
   a rdf:Property ;
@@ -153,13 +220,26 @@ opo:achternaam
   rdfs:label "heeft achternaam" ;
   rdfs:range xsd:string ;
 .
+opo:attent
+  a opo:KarakterEigenschap ;
+.
 opo:bruin
   a opo:Kleur ;
   rdfs:label "bruin" ;
 .
+opo:functietitel
+  a rdf:Property ;
+  rdfs:domain opo:Beroep ;
+  rdfs:label "heeft functietitel" ;
+  rdfs:range xsd:string ;
+.
 opo:geel
   a opo:Kleur ;
   rdfs:label "geel" ;
+.
+opo:geweestIn
+  a opo:LocatieRelatie ;
+  rdfs:domain opo:Persoon ;
 .
 opo:gezinsnaam
   a rdf:Property ;
@@ -173,11 +253,11 @@ opo:groen
 .
 opo:heeftAdres
   a rdf:Property ;
-  rdfs:domain opo:Bedrijf ;
-  rdfs:domain opo:Huis ;
-  rdfs:domain opo:Persoon ;
+  rdfs:domain opo:Locatie ;
   rdfs:label "heeft adres" ;
-  rdfs:range opo:Adres ;
+.
+opo:heeftBroer
+  a opo:PersoonRelatie ;
 .
 opo:heeftDoopnaam
   a rdf:Property ;
@@ -193,12 +273,6 @@ opo:heeftEigenschap
   rdfs:label "heeft eigenschap" ;
   rdfs:range opo:Eigenschap ;
 .
-opo:heeftFunctietitel
-  a rdf:Property ;
-  rdfs:domain opo:Beroep ;
-  rdfs:label "heeft functietitel" ;
-  rdfs:range xsd:string ;
-.
 opo:heeftGeboorteDatum
   a rdf:Property ;
   rdfs:label "heeft geboorte datum" ;
@@ -210,9 +284,29 @@ opo:heeftGezinsLid
   rdfs:label "heeft gezins lid" ;
   rdfs:range opo:Persoon ;
 .
+opo:heeftHaarStructuur
+  a opo:LichamelijkeEigenschap ;
+  rdfs:domain opo:Persoon ;
+  rdfs:range opo:HaarStructuur ;
+.
 opo:heeftHaarkleur
   a opo:LichamelijkeEigenschap ;
+  rdfs:domain opo:LichamelijkeEigenschap ;
   rdfs:label "heeft haarkleur" ;
+  rdfs:range opo:Haarkleur ;
+.
+opo:heeftHobby
+  a rdf:Property ;
+  rdfs:domain opo:Persoon ;
+  rdfs:range opo:Activiteit ;
+.
+opo:heeftKarakterEigenschap
+  a rdf:Property ;
+  rdfs:domain opo:Persoon ;
+  rdfs:range opo:KarakterEigenschap ;
+.
+opo:heeftKind
+  a opo:PersoonRelatie ;
 .
 opo:heeftKleur
   a rdf:Property ;
@@ -234,13 +328,33 @@ opo:heeftOogKleur
   rdfs:label "heeft oog kleur" ;
   rdfs:range opo:Kleur ;
 .
+opo:heeftSpecialiteit
+  a rdf:Property ;
+  rdfs:domain opo:Persoon ;
+  rdfs:range opo:Activiteit ;
+.
 opo:heeftStructuur
   a rdf:Property ;
   rdfs:label "heeft structuur" ;
 .
+opo:heeftZus
+  a opo:PersoonRelatie ;
+.
+opo:houdtVan
+  a opo:ActiviteitRelatie ;
+  a opo:PersoonRelatie ;
+.
 opo:huisnaam
   a rdf:Property ;
   rdfs:label "huisnaam" ;
+.
+opo:isGetrouwdMet
+  a opo:PersoonRelatie ;
+.
+opo:omschrijving
+  a rdf:Property ;
+  rdfs:domain opo:Beroep ;
+  rdfs:range xsd:string ;
 .
 opo:oranje
   a opo:Kleur ;

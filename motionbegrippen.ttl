@@ -1,0 +1,346 @@
+# baseURI: http://linkeddata.ordina.nl/spmotion/motionbegrippen
+# imports: http://topbraid.org/sparqlmotionfunctions
+# imports: http://topbraid.org/sparqlmotionlib-tb
+# prefix: motionbegrippen
+
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix motionbegrippen: <http://linkeddata.ordina.nl/spmotion/motionbegrippen#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://topbraid.org/sparqlmotion#> .
+@prefix smf: <http://topbraid.org/sparqlmotionfunctions#> .
+@prefix sml: <http://topbraid.org/sparqlmotionlib#> .
+@prefix sp: <http://spinrdf.org/sp#> .
+@prefix spif: <http://spinrdf.org/spif#> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://linkeddata.ordina.nl/spmotion/motionbegrippen>
+  a owl:Ontology ;
+  owl:imports <http://topbraid.org/sparqlmotionfunctions> ;
+  owl:imports <http://topbraid.org/sparqlmotionlib-tb> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+motionbegrippen:ApplyConstruct
+  a sml:ApplyConstruct ;
+  sm:next motionbegrippen:ExportToRDFFile ;
+  sm:nodeX 106 ;
+  sm:nodeY 214 ;
+  sml:constructQuery [
+      a sp:Construct ;
+      sp:templates (
+          [
+            sp:object skos:Concept ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "uri" ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "label" ;
+              ] ;
+            sp:predicate skos:prefLabel ;
+            sp:subject [
+                sp:varName "uri" ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "buri" ;
+              ] ;
+            sp:predicate skos:broader ;
+            sp:subject [
+                sp:varName "uri" ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "nuri" ;
+              ] ;
+            sp:predicate skos:narrower ;
+            sp:subject [
+                sp:varName "uri" ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "schemeo" ;
+              ] ;
+            sp:predicate [
+                sp:varName "schemep" ;
+              ] ;
+            sp:subject [
+                sp:varName "scheme" ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "tpc" ;
+              ] ;
+            sp:predicate skos:hasTopConcept ;
+            sp:subject [
+                sp:varName "scheme" ;
+              ] ;
+          ]
+        ) ;
+      sp:where (
+          [
+            a sp:Union ;
+            sp:elements (
+                (
+                  [
+                    sp:object skos:Concept ;
+                    sp:predicate rdf:type ;
+                    sp:subject [
+                        sp:varName "s" ;
+                      ] ;
+                  ]
+                  [
+                    sp:object [
+                        sp:varName "label" ;
+                      ] ;
+                    sp:predicate skos:prefLabel ;
+                    sp:subject [
+                        sp:varName "s" ;
+                      ] ;
+                  ]
+                  [
+                    sp:object [
+                        sp:varName "o" ;
+                      ] ;
+                    sp:predicate [
+                        sp:varName "p" ;
+                      ] ;
+                    sp:subject [
+                        sp:varName "s" ;
+                      ] ;
+                  ]
+                  [
+                    sp:object <https://ordina.poolparty.biz/user/adreuijl> ;
+                    sp:predicate <http://purl.org/dc/terms/creator> ;
+                    sp:subject [
+                        sp:varName "s" ;
+                      ] ;
+                  ]
+                  [
+                    a sp:Optional ;
+                    sp:elements (
+                        [
+                          sp:object [
+                              sp:varName "broader" ;
+                            ] ;
+                          sp:predicate skos:broader ;
+                          sp:subject [
+                              sp:varName "s" ;
+                            ] ;
+                        ]
+                        [
+                          sp:object [
+                              sp:varName "bLabel" ;
+                            ] ;
+                          sp:predicate skos:prefLabel ;
+                          sp:subject [
+                              sp:varName "broader" ;
+                            ] ;
+                        ]
+                      ) ;
+                  ]
+                  [
+                    a sp:Optional ;
+                    sp:elements (
+                        [
+                          sp:object [
+                              sp:varName "narrower" ;
+                            ] ;
+                          sp:predicate skos:narrower ;
+                          sp:subject [
+                              sp:varName "s" ;
+                            ] ;
+                        ]
+                        [
+                          sp:object [
+                              sp:varName "nLabel" ;
+                            ] ;
+                          sp:predicate skos:prefLabel ;
+                          sp:subject [
+                              sp:varName "narrower" ;
+                            ] ;
+                        ]
+                      ) ;
+                  ]
+                  [
+                    a sp:Bind ;
+                    sp:expression [
+                        a sp:uri ;
+                        sp:arg1 [
+                            a sp:concat ;
+                            sp:arg1 [
+                                a sp:str ;
+                                sp:arg1 [
+                                    sp:varName "s" ;
+                                  ] ;
+                              ] ;
+                            sp:arg2 "_" ;
+                            sp:arg3 [
+                                a smf:camelCase ;
+                                sp:arg1 [
+                                    sp:varName "label" ;
+                                  ] ;
+                              ] ;
+                          ] ;
+                      ] ;
+                    sp:variable [
+                        sp:varName "uri" ;
+                      ] ;
+                  ]
+                  [
+                    a sp:Bind ;
+                    sp:expression [
+                        a sp:uri ;
+                        sp:arg1 [
+                            a sp:concat ;
+                            sp:arg1 [
+                                a sp:str ;
+                                sp:arg1 [
+                                    sp:varName "broader" ;
+                                  ] ;
+                              ] ;
+                            sp:arg2 "_" ;
+                            sp:arg3 [
+                                a smf:camelCase ;
+                                sp:arg1 [
+                                    sp:varName "bLabel" ;
+                                  ] ;
+                              ] ;
+                          ] ;
+                      ] ;
+                    sp:variable [
+                        sp:varName "buri" ;
+                      ] ;
+                  ]
+                  [
+                    a sp:Bind ;
+                    sp:expression [
+                        a sp:uri ;
+                        sp:arg1 [
+                            a sp:concat ;
+                            sp:arg1 [
+                                a sp:str ;
+                                sp:arg1 [
+                                    sp:varName "narrower" ;
+                                  ] ;
+                              ] ;
+                            sp:arg2 "_" ;
+                            sp:arg3 [
+                                a smf:camelCase ;
+                                sp:arg1 [
+                                    sp:varName "nLabel" ;
+                                  ] ;
+                              ] ;
+                          ] ;
+                      ] ;
+                    sp:variable [
+                        sp:varName "nuri" ;
+                      ] ;
+                  ]
+                )
+                (
+                  [
+                    sp:object skos:ConceptScheme ;
+                    sp:predicate rdf:type ;
+                    sp:subject [
+                        sp:varName "scheme" ;
+                      ] ;
+                  ]
+                  [
+                    sp:object <https://ordina.poolparty.biz/user/adreuijl> ;
+                    sp:predicate <http://purl.org/dc/terms/creator> ;
+                    sp:subject [
+                        sp:varName "scheme" ;
+                      ] ;
+                  ]
+                  [
+                    sp:object [
+                        sp:varName "topconcept" ;
+                      ] ;
+                    sp:predicate skos:hasTopConcept ;
+                    sp:subject [
+                        sp:varName "scheme" ;
+                      ] ;
+                  ]
+                  [
+                    sp:object [
+                        sp:varName "tcplabel" ;
+                      ] ;
+                    sp:predicate skos:prefLabel ;
+                    sp:subject [
+                        sp:varName "topconcept" ;
+                      ] ;
+                  ]
+                  [
+                    sp:object [
+                        sp:varName "schemeo" ;
+                      ] ;
+                    sp:predicate [
+                        sp:varName "schemep" ;
+                      ] ;
+                    sp:subject [
+                        sp:varName "scheme" ;
+                      ] ;
+                  ]
+                  [
+                    a sp:Bind ;
+                    sp:expression [
+                        a sp:uri ;
+                        sp:arg1 [
+                            a sp:concat ;
+                            sp:arg1 [
+                                a sp:str ;
+                                sp:arg1 [
+                                    sp:varName "topconcept" ;
+                                  ] ;
+                              ] ;
+                            sp:arg2 "_" ;
+                            sp:arg3 [
+                                a smf:camelCase ;
+                                sp:arg1 [
+                                    sp:varName "tcplabel" ;
+                                  ] ;
+                              ] ;
+                          ] ;
+                      ] ;
+                    sp:variable [
+                        sp:varName "tpc" ;
+                      ] ;
+                  ]
+                )
+              ) ;
+          ]
+        ) ;
+    ] ;
+  sml:replace true ;
+  rdfs:label "Apply construct" ;
+  skos:prefLabel "Apply construct" ;
+.
+motionbegrippen:ExportToRDFFile
+  a sml:ExportToRDFFile ;
+  sm:nodeX 116 ;
+  sm:nodeY 317 ;
+  sml:baseURI "http://linkeddata.ordina.nl/begrippen/" ;
+  sml:targetFilePath "/ProfessionalsTraining/begrippen.ttl" ;
+  rdfs:label "Begrippen export" ;
+  skos:prefLabel "Export to RDFFile" ;
+.
+<http://linkeddata.ordina.nl/spmotion/motionbegrippen#Import-begrippen_proftraining_1.ttl_1>
+  a sml:ImportRDFFromWorkspace ;
+  sm:next motionbegrippen:ApplyConstruct ;
+  sm:nodeX 68 ;
+  sm:nodeY 100 ;
+  sml:baseURI "file:/Users/are21765/Documents/Cursus/Linked%20data/Professionals%20training/TBCWD/OrdinaPeopleOntology/begrippen/begrippen%20proftraining%201.ttl" ;
+  sml:ignoreImports true ;
+  rdfs:label "Import begrippen proftraining 1.ttl" ;
+.

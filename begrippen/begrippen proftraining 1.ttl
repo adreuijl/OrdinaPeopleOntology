@@ -1,0 +1,3078 @@
+# baseURI: file:/Users/are21765/Documents/Cursus/Linked%20data/Professionals%20training/TBCWD/OrdinaPeopleOntology/begrippen/begrippen%20proftraining%201.ttl
+# imports: http://purl.org/dc/terms/
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///Users/are21765/Documents/Cursus/Linked%20data/Professionals%20training/TBCWD/OrdinaPeopleOntology/begrippen/begrippen%20proftraining%201.ttl>
+  a owl:Ontology ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+.
+<file:/Users/are21765/Documents/Cursus/Linked%20data/Professionals%20training/TBCWD/OrdinaPeopleOntology/begrippen/begrippen%20proftraining%201.ttl>
+  a owl:Ontology ;
+  owl:imports dcterms: ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/101>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T14:17:18.287Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/99> ;
+  skos:prefLabel "Achternaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/102>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T14:17:47.431Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/ordina> ;
+  skos:prefLabel "postzegels verzamelen"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/40> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/103>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T14:19:10.875Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:31:55.637Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339> ;
+  skos:prefLabel "Leeftijd"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/104>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T14:25:52.728Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/ordina> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/94> ;
+  skos:prefLabel "Ellena Nash"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/106>
+  a skos:ConceptScheme ;
+  dcterms:created "2020-07-07T16:17:38.343Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  dcterms:description "Mijn begrippenkader"@nl ;
+  dcterms:modified "2020-07-07T16:19:56.376Z"^^xsd:dateTime ;
+  dcterms:publisher <https://ordina.poolparty.biz/user/Ordina> ;
+  dcterms:subject "ESDM Begrippenkaders"@nl ;
+  dcterms:title "Die van Marc"@nl ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/114> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/125> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/144> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/168> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/171> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/107>
+  a skos:ConceptScheme ;
+  dcterms:created "2020-07-07T16:17:55.315Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:description "Een gedeeld begrippenkader"@nl ;
+  dcterms:publisher <https://ordina.poolparty.biz/user/Ordina> ;
+  dcterms:subject "ESDM Begrippenkaders"@nl ;
+  dcterms:title "Maryse Bucking"@nl ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/119> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/254> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/261> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/276> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/279> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/108>
+  a skos:ConceptScheme ;
+  dcterms:created "2020-07-07T16:18:00.372Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Mark.van.Leeuwenordina.nl> ;
+  dcterms:description "Een gedeeld begrippenkader"@nl ;
+  dcterms:modified "2020-07-07T16:32:33.396Z"^^xsd:dateTime ;
+  dcterms:publisher <https://ordina.poolparty.biz/user/Ordina> ;
+  dcterms:subject "ESDM Begrippenkaders"@nl ;
+  dcterms:title "Mensen"@nl ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/189> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/109>
+  a skos:ConceptScheme ;
+  dcterms:created "2020-07-07T16:18:05.394Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  dcterms:description "Een gedeeld begrippenkader voor de cursus"@nl ;
+  dcterms:publisher <https://ordina.poolparty.biz/user/Ordina> ;
+  dcterms:subject "ESDM Begrippenkaders voor ESDM cursus"@nl ;
+  dcterms:title "Christel Veefkind"@nl ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/124> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/158> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/195> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/110>
+  a skos:ConceptScheme ;
+  dcterms:created "2020-07-07T16:18:06.329Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Erwin.Rossenordina.nl> ;
+  dcterms:description "Een gedeeld begrippenkader van Erwin Rossen"@nl ;
+  dcterms:modified "2020-07-07T16:33:58.536Z"^^xsd:dateTime ;
+  dcterms:publisher <https://ordina.poolparty.biz/user/Ordina> ;
+  dcterms:subject "ESDM Begrippenkaders"@nl ;
+  dcterms:title "Erwin Rossen"@nl ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/178> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/225> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/111>
+  a skos:ConceptScheme ;
+  dcterms:created "2020-07-07T16:18:11.910Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:description "Een gedeeld begrippenkader"@nl ;
+  dcterms:publisher <https://ordina.poolparty.biz/user/Ordina> ;
+  dcterms:subject "ESDM Begrippenkaders"@nl ;
+  dcterms:title "Davey den Haan"@nl ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/115> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/116> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/120> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/122> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/123> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/127> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/140> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/154> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/155> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/160> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/161> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/165> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/167> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/186> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/194> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/212> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/231> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/232> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/233> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/112>
+  a skos:ConceptScheme ;
+  dcterms:created "2020-07-07T16:18:12.604Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:description "Een gedeeld begrippenkader"@nl ;
+  dcterms:publisher <https://ordina.poolparty.biz/user/Ordina> ;
+  dcterms:subject "ESDM Begrippenkaders"@nl ;
+  dcterms:title "Brenda van der Wilk"@nl ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/133> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/170> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/206> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/219> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/381> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/113>
+  a skos:ConceptScheme ;
+  dcterms:created "2020-07-07T16:18:16.338Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:description "Een gedeeld begrippenkader over Ordina collega's"@nl ;
+  dcterms:publisher <https://ordina.poolparty.biz/user/Ordina> ;
+  dcterms:subject "ESDM Begrippenkaders Personen"@nl ;
+  dcterms:title "Bilal Sari"@nl ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/132> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/163> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/183> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/424> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/432> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/433> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/114>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:24:29.743Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/117> ;
+  skos:prefLabel "Metadata"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/106> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/115>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:24:37.659Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:38:24.746Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/232> ;
+  skos:prefLabel "nummer"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/116>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:24:45.936Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:38:40.085Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/232> ;
+  skos:prefLabel "email"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/117>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  dcterms:created "2020-07-07T16:24:51.131Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  dcterms:modified "2020-07-07T16:25:24.179Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/114> ;
+  skos:definition "Betekenisloze identificatie van deelnemer"@nl ;
+  skos:prefLabel "Nummer"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/119>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:25:12.485Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:06:30.466Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/121> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/169> ;
+  skos:prefLabel "Eigenschappen"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/107> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/120>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:25:18.849Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:38:29.167Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/232> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/136> ;
+  skos:prefLabel "woonplaats"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/121>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:25:28.701Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:19:41.937Z"^^xsd:dateTime ;
+  skos:altLabel "Persoonseigenschappen"@nl ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/119> ;
+  skos:definition "De eigenschappen die bij een persoon horen, die niet fysiek waarneembaar zijn. "@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/126> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/135> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/236> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/237> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/247> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/248> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/250> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/259> ;
+  skos:prefLabel "Personalia"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/122>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:25:29.396Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:38:01.694Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/212> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/130> ;
+  skos:prefLabel "haar"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/123>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:25:35.316Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:39:43.965Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/233> ;
+  skos:prefLabel "gezinssituatie"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/124>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:25:40.553Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/138> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/141> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/145> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/174> ;
+  skos:prefLabel "Administratief"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/109> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/125>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  dcterms:created "2020-07-07T16:25:40.763Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  dcterms:modified "2020-07-07T16:31:21.680Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/171> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/128> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/129> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/131> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/134> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/137> ;
+  skos:prefLabel "Naam"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/106> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/126>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:25:41.755Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-07T16:56:56.734Z"^^xsd:dateTime ;
+  skos:altLabel "ID"@nl ;
+  skos:altLabel "Identifier"@nl ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/121> ;
+  skos:definition "betekenisloze identifier van een persoon"@nl ;
+  skos:prefLabel "Nummer"@nl ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/238> ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/239> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/127>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:25:44.646Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:27:10.817Z"^^xsd:dateTime ;
+  skos:prefLabel "huishouden"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/128>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:25:50.905Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/125> ;
+  skos:prefLabel "Voornaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/129>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:26:07.582Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/125> ;
+  skos:prefLabel "Tussenvoegsel"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/130>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:26:08.242Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/122> ;
+  skos:prefLabel "Haarkleur"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/131>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:26:18.014Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/125> ;
+  skos:prefLabel "Achternaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/132>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:26:18.561Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/143> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/153> ;
+  skos:prefLabel "Eigenschappen"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/113> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/133>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:26:25.365Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/139> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/146> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/150> ;
+  skos:prefLabel "Activiteiten"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/112> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/134>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:26:27.730Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/125> ;
+  skos:prefLabel "Initialen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/135>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:26:32.142Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-07T16:26:49.395Z"^^xsd:dateTime ;
+  skos:altLabel "Name"@nl ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/121> ;
+  skos:definition "Volledige naam van een persoon"@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/142> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/148> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/151> ;
+  skos:prefLabel "Naam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/136>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:26:32.244Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:27:22.376Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/120> ;
+  skos:prefLabel "eigen omschrijving woonplaats"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/137>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:26:40.728Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/125> ;
+  skos:prefLabel "Roepnaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/138>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:26:41.223Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/124> ;
+  skos:prefLabel "nummer"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/139>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:26:43.755Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/133> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/175> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/187> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/190> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/193> ;
+  skos:prefLabel "Opleiding"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/140>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:26:49.926Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:39:42.622Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/233> ;
+  skos:prefLabel "gezin"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/141>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:26:58.274Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/124> ;
+  skos:prefLabel "email"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/142>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:26:59.348Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-07T16:27:30.258Z"^^xsd:dateTime ;
+  skos:altLabel "Roepnaam"@nl ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/135> ;
+  skos:definition "Eerste voornaam van een persoon"@nl ;
+  skos:prefLabel "Voornaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/143>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:27:07.110Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/132> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/208> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/423> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/437> ;
+  skos:prefLabel "Fysieke eigenschappen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/144>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  dcterms:created "2020-07-07T16:27:08.474Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  dcterms:modified "2020-07-07T16:31:52.202Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/171> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/147> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/156> ;
+  skos:prefLabel "Gebeurtenissen"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/106> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/145>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:27:09.453Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/124> ;
+  skos:prefLabel "woonplaats"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/146>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:created "2020-07-07T16:27:10.304Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:modified "2020-07-12T18:15:12.710Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/133> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/357> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/358> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/364> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/384> ;
+  skos:prefLabel "Werk"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/147>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:27:24.297Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/144> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/152> ;
+  skos:prefLabel "Geboorte"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/148>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:27:39.042Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:00:27.746Z"^^xsd:dateTime ;
+  skos:altLabel "Familienaam"@nl ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/135> ;
+  skos:definition "Achternaam van een persoon, zonder tussenvoegsel"@nl ;
+  skos:prefLabel "Achternaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/149>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Erwin.Rossenordina.nl> ;
+  dcterms:created "2020-07-07T16:27:53.289Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Erwin.Rossenordina.nl> ;
+  dcterms:modified "2020-07-07T16:33:58.536Z"^^xsd:dateTime ;
+  skos:altLabel "Roepnaam"@nl ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/178> ;
+  skos:prefLabel "Voornaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/150>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:27:55.866Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/133> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/349> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/350> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/351> ;
+  skos:prefLabel "Hobby"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/151>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:28:08.262Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-07T16:28:19.185Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/135> ;
+  skos:definition "Tussenvoegsel behorend bij de achternaam."@nl ;
+  skos:prefLabel "Tussenvoegsel"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/152>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:28:15.730Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/147> ;
+  skos:prefLabel "Geboortedatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/153>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-07T16:28:17.416Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T10:55:36.322Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/132> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/188> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/418> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/422> ;
+  skos:prefLabel "Niet-fysieke eigenschappen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/154>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:28:17.799Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:39:40.417Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/233> ;
+  skos:prefLabel "huisdier"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/155>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:28:30.934Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:38:10.274Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/212> ;
+  skos:prefLabel "lengte"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/156>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:28:31.002Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/144> ;
+  skos:prefLabel "Huwelijk"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/158>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  dcterms:created "2020-07-07T16:28:37.114Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  dcterms:modified "2020-07-07T16:35:34.526Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/214> ;
+  skos:prefLabel "Eigenschap"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/109> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/160>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:28:42.873Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:39:15.343Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/212> ;
+  skos:prefLabel "voornaam"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/161>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:28:50.433Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:39:13.334Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/212> ;
+  skos:prefLabel "tussenvoegsel"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/162>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  dcterms:created "2020-07-07T16:28:52.873Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  dcterms:modified "2020-07-07T16:35:33.055Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/214> ;
+  skos:prefLabel "haarkleur"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/163>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:28:53.955Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/221> ;
+  skos:prefLabel "Datum/Tijd"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/113> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/165>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:29:00.676Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:37:58.656Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/212> ;
+  skos:prefLabel "geboortedatum"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/166>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  dcterms:created "2020-07-07T16:29:03.897Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  dcterms:modified "2020-07-07T16:35:34.526Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/214> ;
+  skos:prefLabel "lengte"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/167>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:29:07.772Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:37:55.963Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/212> ;
+  skos:prefLabel "burgerlijke staat"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/168>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:29:11.553Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/182> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/185> ;
+  skos:prefLabel "Eigenschappen werkgerelateerd"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/106> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/169>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:29:12.080Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-07T16:29:24.900Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/119> ;
+  skos:definition "Eigenschappen van een persoon die je fysiek waar kunt nemen."@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/173> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/176> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/184> ;
+  skos:prefLabel "Fysieke eigenschappen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/170>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:29:23.547Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/198> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/202> ;
+  skos:prefLabel "Gebeurtenissen"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/112> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/171>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  dcterms:created "2020-07-07T16:29:32.192Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  dcterms:modified "2020-07-07T16:31:52.202Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/125> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/144> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/200> ;
+  skos:prefLabel "Eigenschappen Persoonsgerelateerd"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/106> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/172>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Erwin.Rossenordina.nl> ;
+  dcterms:created "2020-07-07T16:29:33.969Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Erwin.Rossenordina.nl> ;
+  dcterms:modified "2020-07-07T16:33:56.754Z"^^xsd:dateTime ;
+  skos:altLabel "Geboortenaam"@nl ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/178> ;
+  skos:prefLabel "Achternaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/173>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:29:34.685Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T08:58:22.684Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/169> ;
+  skos:definition "De natuurlijke haarkleur."@nl ;
+  skos:prefLabel "Haarkleur"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/174>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:29:44.843Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/124> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/177> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/179> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/181> ;
+  skos:prefLabel "Naam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/175>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:created "2020-07-07T16:29:47.503Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:modified "2020-07-07T16:30:34.165Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/139> ;
+  skos:prefLabel "Primair onderwijs"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/176>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:29:49.077Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/169> ;
+  skos:prefLabel "Oogkleur"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/177>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:29:52.593Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/174> ;
+  skos:prefLabel "Voornaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/178>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Erwin.Rossenordina.nl> ;
+  dcterms:created "2020-07-07T16:29:54.728Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Erwin.Rossenordina.nl> ;
+  dcterms:modified "2020-07-07T16:31:57.143Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/149> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/172> ;
+  skos:prefLabel "Naam"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/110> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/179>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:30:00.230Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/174> ;
+  skos:prefLabel "tussenvoegsel"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/181>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:30:08.728Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/174> ;
+  skos:prefLabel "Achternaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/182>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:30:09.099Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/168> ;
+  skos:prefLabel "Werkgever"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/183>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:30:10.451Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/419> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/420> ;
+  skos:prefLabel "Locaties"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/113> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/184>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:30:11.087Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/169> ;
+  skos:prefLabel "Lengte"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/185>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:30:16.520Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/168> ;
+  skos:prefLabel "Rol"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/186>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:30:43.765Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:39:08.883Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/212> ;
+  skos:prefLabel "hobby"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/187>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:30:47.536Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/139> ;
+  skos:prefLabel "Voortgezet onderwijs"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/188>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:31:06.302Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/153> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/191> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/192> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/201> ;
+  skos:prefLabel "Naam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/189>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:31:10.638Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Mark.van.Leeuwenordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/196> ;
+  skos:prefLabel "Medewerkers van Ordina"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/108> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/190>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:31:11.710Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/139> ;
+  skos:prefLabel "Beroepsonderwijs"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/191>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-07T16:31:14.170Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-07T16:32:00.891Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/188> ;
+  skos:definition """zie gba
+"""@nl ;
+  skos:prefLabel "Voornaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/192>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-07T16:31:20.961Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-07T16:31:56.234Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/188> ;
+  skos:definition """zie gba
+"""@nl ;
+  skos:prefLabel "Achternaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/193>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:31:26.320Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/139> ;
+  skos:prefLabel "Wetenschappelijk onderwijs"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/194>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:31:29.194Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:39:36.349Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/233> ;
+  skos:prefLabel "werkgever"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/195>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:31:42.996Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/197> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/199> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/204> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/207> ;
+  skos:prefLabel "Persoonsrelaties"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/109> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/196>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:32:01.137Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Mark.van.Leeuwenordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/189> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/223> ;
+  skos:prefLabel "Mark van Leeuwen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/197>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:32:02.679Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/195> ;
+  skos:prefLabel "burgerlijke staat"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/198>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:32:13.707Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/170> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/412> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/413> ;
+  skos:prefLabel "Trouwen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/199>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:32:14.172Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/195> ;
+  skos:prefLabel "gezinssituatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/200>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:32:15.255Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Marc.Bonenkampordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/171> ;
+  skos:prefLabel "Hobby"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/201>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-07T16:32:20.787Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-07T16:32:28.093Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/188> ;
+  skos:definition """zie gba (Voorbeelden: den, van der, van)
+"""@nl ;
+  skos:prefLabel "Tussenvoegsel"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/202>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:32:34.600Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/170> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/410> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/411> ;
+  skos:prefLabel "Geboorte"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/204>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:32:53.244Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/195> ;
+  skos:prefLabel "woonsituatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/205>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:32:57.381Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T08:52:12.918Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/261> ;
+  skos:definition "De instantie die de persoon in loondienst heeft genomen of de instantie waarvoor de persoon activiteiten uitvoert, waarvoor de persoon een vergoeding krijgt in monetaire waarde."@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/216> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/265> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/266> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/267> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/273> ;
+  skos:prefLabel "Werkgever"@nl ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/262> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/206>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:created "2020-07-07T16:33:00.813Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:modified "2020-07-12T19:17:22.186Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/360> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/368> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/372> ;
+  skos:prefLabel "Relaties"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/112> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/207>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:33:04.375Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/195> ;
+  skos:prefLabel "huishouden"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/208>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-07T16:33:15.433Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-07T16:33:47.167Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/143> ;
+  skos:definition "De aanwezigheid van hoofdhaar "@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/209> ;
+  skos:prefLabel "Haar"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/209>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-07T16:33:25.142Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-07T16:34:07.104Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/208> ;
+  skos:definition """kleur van het haar op het moment van beschouwen
+"""@nl ;
+  skos:prefLabel "Haarkleur"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/212>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:33:30.559Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:39:15.343Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/122> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/155> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/160> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/161> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/165> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/167> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/186> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/231> ;
+  skos:prefLabel "eigenschappen"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/214>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  dcterms:created "2020-07-07T16:33:35.896Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Christel.Veefkindordina.nl> ;
+  dcterms:modified "2020-07-07T16:34:41.461Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/158> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/162> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/166> ;
+  skos:prefLabel "Fysieke eigenschap"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/216>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:33:51.369Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T08:45:58.251Z"^^xsd:dateTime ;
+  skos:altLabel "Functie"@nl ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/205> ;
+  skos:definition "Classificatie geldend binnen een functiesysteem van de werkgever die duiding geeft aan je taken en verantwoordelijkheden"@nl ;
+  skos:prefLabel "Rol"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/219>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:created "2020-07-07T16:34:37.669Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:modified "2020-07-12T19:29:21.901Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/222> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/395> ;
+  skos:prefLabel "Identificatie"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/112> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/221>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-07T16:34:53.507Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-07T16:35:06.741Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/163> ;
+  skos:definition """datum van geboorte zie gba
+"""@nl ;
+  skos:prefLabel "Geboortedatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/222>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:35:06.206Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/219> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/226> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/228> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/356> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/401> ;
+  skos:prefLabel "Fysieke eigenschappen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/223>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:35:08.747Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Mark.van.Leeuwenordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/196> ;
+  skos:prefLabel "Personeelsnummer"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/225>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:35:21.778Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Erwin.Rossenordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/227> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/229> ;
+  skos:prefLabel "Hobby"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/110> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/226>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:35:41.118Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/222> ;
+  skos:prefLabel "Haarkleur"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/227>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:35:49.391Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Erwin.Rossenordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/225> ;
+  skos:prefLabel "Sport"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/228>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:35:55.435Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/222> ;
+  skos:prefLabel "Oogkleur"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/229>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:35:58.080Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Erwin.Rossenordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/225> ;
+  skos:prefLabel "Muziek"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/231>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:37:47.528Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:37:53.376Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/212> ;
+  skos:prefLabel "achternaam"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/232>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:38:19.536Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:38:40.085Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/115> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/116> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/120> ;
+  skos:prefLabel "gegevens"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/233>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:created "2020-07-07T16:38:50.883Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Davey.den.Haanordina.nl> ;
+  dcterms:modified "2020-07-07T16:39:43.965Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/123> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/140> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/154> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/194> ;
+  skos:prefLabel "relaties"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/111> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/236>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:53:03.061Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:19:41.937Z"^^xsd:dateTime ;
+  skos:altLabel "Relatietype"@nl ;
+  skos:altLabel "burg. staat"@nl ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/121> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/239> ;
+  skos:definition "zie gba (Voorbeelden: getrouwd, geregistreerd partnerschap, samenwonend, Alleenstaand)"@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/274> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/275> ;
+  skos:prefLabel "Burgerlijke staat"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/237>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:53:08.273Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:11:49.151Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/121> ;
+  skos:definition "zie gba"@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/240> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/241> ;
+  skos:prefLabel "Adres"@nl ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/276> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/238>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:53:27.967Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:19:07.045Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/279> ;
+  skos:definition "De kinderen die een persoon op natuurlijke wijze heeft gekregen of die geadopteerd zijn."@nl ;
+  skos:prefLabel "Kinderen"@nl ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/126> ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/239> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/239>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:53:35.421Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:19:07.045Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/279> ;
+  skos:definition "zie gba"@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/236> ;
+  skos:prefLabel "Partners"@nl ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/126> ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/238> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/240>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:54:16.829Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/237> ;
+  skos:prefLabel "Startdatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/241>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T16:54:21.196Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/237> ;
+  skos:prefLabel "Einddatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/242>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:54:37.599Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:11:49.151Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/276> ;
+  skos:prefLabel "Woonplaats"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/243>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:55:01.308Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:11:46.568Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/276> ;
+  skos:prefLabel "Straatnaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/244>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:55:05.845Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:11:38.068Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/276> ;
+  skos:prefLabel "Huisnummer"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/245>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:55:09.937Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:11:43.364Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/276> ;
+  skos:prefLabel "Postcode"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/246>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:55:16.594Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:11:40.808Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/276> ;
+  skos:prefLabel "Huisnummertoevoeging"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/247>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:58:14.282Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:07:38.312Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/121> ;
+  skos:prefLabel "Email"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/248>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T16:58:27.344Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:07:50.233Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/121> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/260> ;
+  skos:prefLabel "Telefoonnummer"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/250>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T17:01:04.034Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:07:41.640Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/121> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/251> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/252> ;
+  skos:prefLabel "Geboorte"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/251>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T17:01:29.470Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T08:59:18.207Z"^^xsd:dateTime ;
+  skos:altLabel "DOB"@nl ;
+  skos:altLabel "geb. datum"@nl ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/250> ;
+  skos:definition "De datum waarop de persoon geboren is. Zie gba."@nl ;
+  skos:prefLabel "Geboortedatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/252>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T17:01:34.481Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T08:59:45.096Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/250> ;
+  skos:definition "De plaats (zie BAG) waar de persoon geboren is. Zie gba."@nl ;
+  skos:prefLabel "Geboorteplaats"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/254>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T17:03:43.729Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:03:29.701Z"^^xsd:dateTime ;
+  skos:definition "Bezigheid die een persoon uit kan voeren."@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/255> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/257> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/258> ;
+  skos:prefLabel "Activiteiten"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/107> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/255>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T17:04:09.205Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:02:51.347Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/254> ;
+  skos:definition "Lichamelijke bezigheid"@nl ;
+  skos:prefLabel "Sport"@nl ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/258> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/257>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T17:04:50.044Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:02:39.623Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/254> ;
+  skos:definition "Activiteit bedoeld voor het produceren van geluid."@nl ;
+  skos:prefLabel "Muziek"@nl ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/258> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/258>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-07T17:04:55.915Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:02:10.323Z"^^xsd:dateTime ;
+  skos:altLabel "Hobby"@nl ;
+  skos:altLabel "Hobby's"@nl ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/254> ;
+  skos:definition "Bezigheid die een persoon ter ontspanning in zijn vrije tijd uitvoert."@nl ;
+  skos:prefLabel "Hobbies"@nl ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/255> ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/257> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/259>
+  a skos:Concept ;
+  dcterms:created "2020-07-07T17:06:38.213Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/121> ;
+  skos:prefLabel "Leeftijd"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/260>
+  a skos:Concept ;
+  dcterms:created "2020-07-08T08:38:54.543Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/248> ;
+  skos:prefLabel "Mobiel"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/261>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-08T08:41:07.317Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T08:51:43.636Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/205> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/262> ;
+  skos:prefLabel "Instanties"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/107> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/262>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-08T08:41:27.339Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T08:42:19.775Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/261> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/263> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/264> ;
+  skos:prefLabel "Bedrijf"@nl ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/205> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/263>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-08T08:41:36.203Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:04:47.679Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/262> ;
+  skos:definition "Naam van het bedrijf zoals die veelal gebruikt wordt."@nl ;
+  skos:prefLabel "Naam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/264>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-08T08:41:59.550Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:04:21.635Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/262> ;
+  skos:definition "Naam waaronder het bedrijf geregistreerd is bij de kamer van koophandel. Bijv. Ordina B.V."@nl ;
+  skos:prefLabel "KvK registratienaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/265>
+  a skos:Concept ;
+  dcterms:created "2020-07-08T08:42:55.050Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/205> ;
+  skos:prefLabel "Startdatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/266>
+  a skos:Concept ;
+  dcterms:created "2020-07-08T08:42:59.115Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/205> ;
+  skos:prefLabel "Einddatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/267>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-08T08:44:35.422Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T08:48:59.333Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/205> ;
+  skos:definition "De software, hardware en andere concepten die toegekend zijn aan de werknemer."@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/268> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/269> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/270> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/271> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/272> ;
+  skos:prefLabel "Toegekende objecten"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/268>
+  a skos:Concept ;
+  dcterms:created "2020-07-08T08:44:44.491Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/267> ;
+  skos:prefLabel "SIM kaart"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/269>
+  a skos:Concept ;
+  dcterms:created "2020-07-08T08:44:49.650Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/267> ;
+  skos:prefLabel "Email adres"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/270>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-08T08:45:01.018Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T08:48:23.068Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/267> ;
+  skos:definition "Plaats van het kantoor, waar de persoon aan toegewezen is. "@nl ;
+  skos:prefLabel "Standplaats"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/271>
+  a skos:Concept ;
+  dcterms:created "2020-07-08T08:45:06.925Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/267> ;
+  skos:prefLabel "Laptop"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/272>
+  a skos:Concept ;
+  dcterms:created "2020-07-08T08:45:17.421Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/267> ;
+  skos:prefLabel "Smartphone"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/273>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-08T08:46:26.674Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T08:46:47.389Z"^^xsd:dateTime ;
+  skos:altLabel "Business unit"@nl ;
+  skos:altLabel "Vakgebied"@nl ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/205> ;
+  skos:definition "Het domein waarin je werkzaam bent"@nl ;
+  skos:prefLabel "Afdeling"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/274>
+  a skos:Concept ;
+  dcterms:created "2020-07-08T08:57:43.828Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/236> ;
+  skos:prefLabel "Startdatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/275>
+  a skos:Concept ;
+  dcterms:created "2020-07-08T08:57:47.968Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/236> ;
+  skos:prefLabel "Einddatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/276>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-08T09:09:52.438Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:11:26.839Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/242> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/243> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/244> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/245> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/246> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/277> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/278> ;
+  skos:prefLabel "Adressen"@nl ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/237> ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/107> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/277>
+  a skos:Concept ;
+  dcterms:created "2020-07-08T09:12:17.999Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/276> ;
+  skos:prefLabel "Startdatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/278>
+  a skos:Concept ;
+  dcterms:created "2020-07-08T09:12:23.449Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/276> ;
+  skos:prefLabel "Einddatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/279>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:created "2020-07-08T09:17:51.384Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Maryse.Buckingordina.nl> ;
+  dcterms:modified "2020-07-08T09:18:43.093Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/238> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/239> ;
+  skos:prefLabel "Relaties"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/107> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/281>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:19:31.215Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T10:29:58.481Z"^^xsd:dateTime ;
+  skos:altLabel "Object"@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/292> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/331> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/61> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/62> ;
+  skos:prefLabel "Goed"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/39> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/282>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:19:54.229Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:32:45.510Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339> ;
+  skos:prefLabel "Functie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/285>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:20:45.770Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T10:24:10.935Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288> ;
+  skos:prefLabel "Gezin"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/286>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:21:18.269Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T10:26:56.838Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/293> ;
+  skos:prefLabel "Persoon"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/288>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:21:57.855Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T10:23:40.515Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/285> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/289> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/290> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/291> ;
+  skos:prefLabel "Groep"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/39> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/289>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:22:05.579Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T10:23:43.659Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288> ;
+  skos:prefLabel "Kerkgenootschap"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/290>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:22:19.557Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T10:22:54.714Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288> ;
+  skos:prefLabel "Band"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/291>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:22:25.442Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T10:22:44.224Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288> ;
+  skos:prefLabel "Bedrijf"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/292>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:24:27.111Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T10:29:40.075Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281> ;
+  skos:prefLabel "Gebouw"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/293>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:26:34.511Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:27:47.304Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/286> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/294> ;
+  skos:prefLabel "Levend organisme"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/39> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/294>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:27:05.973Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/293> ;
+  skos:prefLabel "Huisdier"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/295>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:27:34.993Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/296> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/313> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/327> ;
+  skos:prefLabel "Situatie"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/39> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/296>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:27:55.963Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:24:22.554Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/295> ;
+  skos:definition "Een Gezinssituatie is een situatie die aanduidt hoe de samenstelling van een gezin is."@nl ;
+  skos:prefLabel "Gezinssituatie"@nl ;
+  skos:scopeNote "Bijvoorbeeld, Samengesteld gezin met 2 kinderen en 1 pleegkind"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/297>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:30:43.996Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T10:35:47.693Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/301> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/302> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/303> ;
+  skos:prefLabel "Plaats"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/298>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:34:00.689Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44> ;
+  skos:prefLabel "Land"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/299>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:34:06.990Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44> ;
+  skos:prefLabel "Provincie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/300>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:34:56.529Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/341> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/342> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/343> ;
+  skos:prefLabel "Adres"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/301>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:35:54.539Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/297> ;
+  skos:prefLabel "Stad"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/302>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:36:03.027Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/297> ;
+  skos:prefLabel "Dorp"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/303>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:36:11.535Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/297> ;
+  skos:prefLabel "Buurtschap"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/305>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:41:30.586Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51> ;
+  skos:prefLabel "Vriend"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/306>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:41:37.407Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51> ;
+  skos:prefLabel "Vriendin"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/307>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:41:54.342Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/308> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/314> ;
+  skos:prefLabel "GevoelRelatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/308>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:42:13.356Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/307> ;
+  skos:prefLabel "HoudVan"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/309>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:42:51.056Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T11:34:19.174Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/310> ;
+  skos:prefLabel "ActiviteitRelatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/310>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:43:00.077Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/309> ;
+  skos:prefLabel "Beoefend"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/311>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:43:18.023Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/312> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/315> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/316> ;
+  skos:prefLabel "Locatierelatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/312>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:44:20.442Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/311> ;
+  skos:prefLabel "Geboorteplaats"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/313>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:44:43.811Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/295> ;
+  skos:prefLabel "Werksituatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/314>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:46:07.379Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/307> ;
+  skos:prefLabel "HekelAan"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/315>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:46:29.060Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:36:55.009Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/311> ;
+  skos:prefLabel "Thuis"@nl ;
+  skos:scopeNote "Voel je je daar thuis?"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/316>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T10:46:36.576Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:36:04.495Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/311> ;
+  skos:prefLabel "Kantoor"@nl ;
+  skos:scopeNote "Ik ga naar Kantoor toe"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/317>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:48:19.631Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/318> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/319> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/332> ;
+  skos:prefLabel "GroepRelatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/318>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:48:27.219Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/317> ;
+  skos:prefLabel "OnderdeelVan"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/319>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:48:37.401Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/317> ;
+  skos:prefLabel "Leider"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/322>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:50:54.473Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/75> ;
+  skos:prefLabel "Lengte"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/323>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:51:05.760Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/75> ;
+  skos:prefLabel "Haarkleur"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/324>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:51:27.338Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/99> ;
+  skos:prefLabel "Voornaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/325>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T10:51:40.468Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/99> ;
+  skos:prefLabel "Tussenvoegsel"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/327>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T11:03:11.133Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:22:59.186Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/295> ;
+  skos:definition "Een Woonsituatie is een situatie die aanduidt wat de manier van wonen is van een persoon."@nl ;
+  skos:prefLabel "Woonsituatie"@nl ;
+  skos:scopeNote "Voorbeelden zijn: thuiswonend, samenwonend"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/330>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T11:10:29.310Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/63> ;
+  skos:prefLabel "Muziek maken"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/331>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T11:10:47.906Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281> ;
+  skos:prefLabel "Muziekinstrument"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/332>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T11:11:35.450Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/317> ;
+  skos:prefLabel "Werkgever"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/333>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T11:33:16.484Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:33:48.336Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/46> ;
+  skos:prefLabel "Beroep"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/334>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T11:54:39.857Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51> ;
+  skos:prefLabel "Gezinslid"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/335>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T11:55:36.346Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:31:12.168Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339> ;
+  skos:prefLabel "Geslacht"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/337>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T12:15:27.314Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/47> ;
+  skos:prefLabel "Scheiden"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/338>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T12:15:41.113Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/47> ;
+  skos:prefLabel "Overlijden"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/339>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-07-10T12:30:43.330Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:33:48.336Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/103> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/282> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/333> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/335> ;
+  skos:prefLabel "Demografie"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/39> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/340>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T12:33:15.966Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/74> ;
+  skos:prefLabel "Spontaan"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/341>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T12:34:55.911Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/300> ;
+  skos:prefLabel "Woonadres"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/342>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T12:35:05.151Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/300> ;
+  skos:prefLabel "Thuisadres"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/343>
+  a skos:Concept ;
+  dcterms:created "2020-07-10T12:35:31.680Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/300> ;
+  skos:prefLabel "Kantooradres"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/349>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T17:55:12.722Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/150> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/352> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/353> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/354> ;
+  skos:prefLabel "Sport (hobby)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/350>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T17:55:27.743Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/150> ;
+  skos:prefLabel "Muziekinstrument (hobby)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/351>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T17:55:47.722Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/150> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/355> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/359> ;
+  skos:prefLabel "Overig (hobby)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/352>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T17:55:58.154Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/349> ;
+  skos:prefLabel "Wandelen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/353>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T17:56:04.885Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/349> ;
+  skos:prefLabel "Fietsen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/354>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T17:56:13.311Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/349> ;
+  skos:prefLabel "Stijldansen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/355>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T17:56:25.335Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/351> ;
+  skos:prefLabel "Tuinieren"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/356>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T18:00:37.384Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/222> ;
+  skos:prefLabel "Lengte"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/357>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:created "2020-07-12T18:02:11.927Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:modified "2020-07-12T18:04:07.832Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/146> ;
+  skos:definition "Naam in de volksmond van de werkgever "@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/362> ;
+  skos:prefLabel "Werkgever"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/358>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:created "2020-07-12T18:02:22.307Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:modified "2020-07-12T18:03:38.242Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/146> ;
+  skos:definition "Officiele naam werkgever zoals geregistreerd bij de KvK"@nl ;
+  skos:prefLabel "Naam werkgever"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/359>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T18:02:49.390Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/351> ;
+  skos:prefLabel "Naaien"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/360>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T18:11:44.891Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/206> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/361> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/366> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/367> ;
+  skos:prefLabel "Relatievorm"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/361>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:created "2020-07-12T18:12:05.037Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:modified "2020-07-13T07:27:57.161Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/360> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/379> ;
+  skos:prefLabel "Burgerlijke staat"@nl ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/370> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/362>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T18:14:27.545Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/357> ;
+  skos:prefLabel "Rol (werkgever)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/364>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T18:15:21.875Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/146> ;
+  skos:prefLabel "Vakgebied (werk)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/366>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:created "2020-07-12T18:17:48.236Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:modified "2020-07-12T18:19:22.708Z"^^xsd:dateTime ;
+  skos:altLabel "Gezin"@nl ;
+  skos:altLabel "Woonsituatie"@nl ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/360> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/380> ;
+  skos:prefLabel "Gezinssituatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/367>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T18:19:03.188Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/360> ;
+  skos:prefLabel "Huishouden"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/368>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T18:20:12.379Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/206> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/370> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/371> ;
+  skos:prefLabel "Personen (relaties)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/370>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:created "2020-07-12T19:16:15.444Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:modified "2020-07-13T07:27:57.161Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/368> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/377> ;
+  skos:prefLabel "Partner(s)"@nl ;
+  skos:related <https://ordina.poolparty.biz/ProfessionalstrainingESDM/361> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/371>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:16:24.690Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/368> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/378> ;
+  skos:prefLabel "Kind(eren)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/372>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:17:32.260Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/206> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/373> ;
+  skos:prefLabel "Dieren (relaties)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/373>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:17:54.302Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/372> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/374> ;
+  skos:prefLabel "Huisdier(en)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/374>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:18:06.292Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/373> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/375> ;
+  skos:prefLabel "Hond(en)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/375>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:18:34.249Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/374> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/376> ;
+  skos:prefLabel "Dwerg pincher"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/376>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:18:41.801Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/375> ;
+  skos:prefLabel "Fenna"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/377>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:18:57.203Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/370> ;
+  skos:prefLabel "Steven"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/378>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:19:04.691Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/371> ;
+  skos:prefLabel "Lucas"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/379>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:19:23.547Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/361> ;
+  skos:prefLabel "Getrouwd"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/380>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:19:55.110Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/366> ;
+  skos:prefLabel "Getrouwd met kind(eren)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/381>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:20:15.092Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/382> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/386> ;
+  skos:prefLabel "Adressen"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/112> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/382>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:20:27.654Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/381> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/383> ;
+  skos:prefLabel "Emailadres"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/383>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:20:47.974Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/382> ;
+  skos:prefLabel "brenda.van.der.wilk@ordina.nl"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/384>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:21:15.259Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/146> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/385> ;
+  skos:prefLabel "Opdrachtgever"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/385>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:21:36.825Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/384> ;
+  skos:prefLabel "Rol (opdrachtgever)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/386>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:created "2020-07-12T19:25:02.128Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  dcterms:modified "2020-07-12T19:26:25.273Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/381> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/390> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/391> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/392> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/393> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/394> ;
+  skos:prefLabel "Woonadres"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/39>
+  a skos:ConceptScheme ;
+  dcterms:created "2020-04-29T13:16:36.585Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:description "Een gedeeld begrippenkader"@nl ;
+  dcterms:modified "2020-07-10T11:36:07.235Z"^^xsd:dateTime ;
+  dcterms:publisher <https://ordina.poolparty.biz/user/Ordina> ;
+  dcterms:subject "ESDM Begrippenkaders"@nl ;
+  dcterms:title "Ordina Personen"@nl ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/293> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/295> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/45> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/46> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/47> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/72> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/390>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:25:45.749Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/386> ;
+  skos:prefLabel "Plaats (woonadres)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/391>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:26:02.732Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/386> ;
+  skos:prefLabel "Huisnummer (woonadres)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/392>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:26:35.873Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/386> ;
+  skos:prefLabel "Straatnaam (woonadres)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/393>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:26:50.202Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/386> ;
+  skos:prefLabel "Postcode (woonadres)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/394>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:27:18.831Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/386> ;
+  skos:prefLabel "Eigen omschrijving plaats (woonadres)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/395>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:28:13.426Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/219> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/396> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/397> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/398> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/399> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/400> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/407> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/409> ;
+  skos:prefLabel "Identificerende gegevens"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/396>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:28:28.801Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/395> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/406> ;
+  skos:prefLabel "Voornaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/397>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:28:39.395Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/395> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/404> ;
+  skos:prefLabel "Roepnaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/398>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:28:51.930Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/395> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/405> ;
+  skos:prefLabel "Tussenvoegsel(s)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/399>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:28:57.961Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/395> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/402> ;
+  skos:prefLabel "Achternaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/40>
+  a skos:ConceptScheme ;
+  dcterms:created "2020-04-29T13:17:05.339Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/ordina> ;
+  dcterms:description "Een gedeeld begrippenkader"@nl ;
+  dcterms:publisher <https://ordina.poolparty.biz/user/Ordina> ;
+  dcterms:subject "Alles over E Dechesne"@nl ;
+  dcterms:title "Elvin Dechesne"@nl ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/102> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/86> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/87> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/88> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/89> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/90> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/91> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/92> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/93> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/94> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/400>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:29:05.595Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/395> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/403> ;
+  skos:prefLabel "Partnernaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/401>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:29:42.335Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/222> ;
+  skos:prefLabel "Tatoeage"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/402>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:30:24.871Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/399> ;
+  skos:prefLabel "Wilk"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/403>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:30:31.268Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/400> ;
+  skos:prefLabel "Oude Wansink"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/404>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:30:41.290Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/397> ;
+  skos:prefLabel "Brenda"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/405>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:30:51.074Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/398> ;
+  skos:prefLabel "van der"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/406>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:31:00.121Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/396> ;
+  skos:prefLabel "Brenda Maria"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/407>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:32:06.841Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/395> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/408> ;
+  skos:prefLabel "Nummer"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/408>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:32:14.036Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/407> ;
+  skos:prefLabel "5"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/409>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:32:50.157Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/395> ;
+  skos:prefLabel "Leeftijd"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/410>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:33:28.825Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/202> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/414> ;
+  skos:prefLabel "Datum (geboorte)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/411>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:33:43.587Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/202> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/415> ;
+  skos:prefLabel "Plaats (geboorte)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/412>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:33:57.025Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/198> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/416> ;
+  skos:prefLabel "Datum (trouwen)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/413>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:34:10.030Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/198> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/417> ;
+  skos:prefLabel "Plaats (trouwen)"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/414>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:34:33.965Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/410> ;
+  skos:prefLabel "08-09-1971"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/415>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:34:39.685Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/411> ;
+  skos:prefLabel "Maastricht"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/416>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:34:55.408Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/412> ;
+  skos:prefLabel "13-05-2016"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/417>
+  a skos:Concept ;
+  dcterms:created "2020-07-12T19:35:04.692Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Brenda.van.der.Wilkordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/413> ;
+  skos:prefLabel "Wijk bij Duurstede"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/418>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-13T10:41:22.252Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T10:41:30.978Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/153> ;
+  skos:definition """betekenisloze identifier van een persoon
+"""@nl ;
+  skos:prefLabel "Nummer"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/419>
+  a skos:Concept ;
+  dcterms:created "2020-07-13T10:41:52.931Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/183> ;
+  skos:prefLabel "Geboorteplaats"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/420>
+  a skos:Concept ;
+  dcterms:created "2020-07-13T10:41:58.219Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/183> ;
+  skos:prefLabel "Woonplaats"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/422>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-13T10:53:27.082Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T10:53:30.483Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/153> ;
+  skos:definition "zie gba (Voorbeelden: getrouwd, geregistreerd partnerschap, samenwonend, Alleenstaand)"@nl ;
+  skos:prefLabel "Burgelijke staat"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/423>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-13T10:55:47.441Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T10:56:01.007Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/143> ;
+  skos:definition """Afgeleid van de huidige datum vs. de geboortedatum die representeert hoe oud iemand is in jaren. 
+"""@nl ;
+  skos:prefLabel "Leeftijd"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/424>
+  a skos:Concept ;
+  dcterms:created "2020-07-13T11:03:02.154Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/425> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/426> ;
+  skos:prefLabel "Activiteiten"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/113> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/425>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-13T11:03:19.843Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T11:05:25.287Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/424> ;
+  skos:definition """Bezigheid die een persoon ter ontspanning in zijn vrije tijd uitvoert.
+"""@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/427> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/428> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/429> ;
+  skos:prefLabel "Hobbies"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/426>
+  a skos:Concept ;
+  dcterms:created "2020-07-13T11:03:25.958Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/424> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/430> ;
+  skos:prefLabel "Werk"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/427>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-13T11:03:40.773Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T11:05:54.389Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/425> ;
+  skos:definition """Ding dat muziek maakt en door een persoon bespeeld wordt.
+"""@nl ;
+  skos:prefLabel "Muziek"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/428>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-13T11:03:44.581Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T11:05:38.588Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/425> ;
+  skos:definition """Lichamelijke bezigheid die een persoon uitvoert.
+"""@nl ;
+  skos:prefLabel "Sport"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/429>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-13T11:03:53.021Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T11:06:07.007Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/425> ;
+  skos:definition """Hobbies die niet onder één van de andere categoriën vallen.
+"""@nl ;
+  skos:prefLabel "Overig"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/430>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-13T11:04:13.841Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T11:04:58.238Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/426> ;
+  skos:definition """Het domein waarin je werkzaam bent
+"""@nl ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/431> ;
+  skos:prefLabel "Vakgebied"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/431>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-13T11:04:29.115Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T11:05:10.472Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/430> ;
+  skos:definition """Classificatie geldend binnen een functiesysteem van de werkgever die duiding geeft aan je taken en verantwoordelijkheden
+"""@nl ;
+  skos:prefLabel "Rol"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/432>
+  a skos:Concept ;
+  dcterms:created "2020-07-13T11:07:20.183Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/435> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/436> ;
+  skos:prefLabel "Relaties"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/113> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/433>
+  a skos:Concept ;
+  dcterms:created "2020-07-13T11:07:24.385Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/434> ;
+  skos:prefLabel "Eigendommen"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/113> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/434>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-13T11:07:32.054Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T11:07:50.339Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/433> ;
+  skos:definition """diersoorten die tot het huishouden horen
+"""@nl ;
+  skos:prefLabel "Huisdier"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/435>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-13T11:08:29.175Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T11:08:33.392Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/432> ;
+  skos:definition """Een groep mensen die volgens de gba op 1 adres woont.
+"""@nl ;
+  skos:prefLabel "Huishouden"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/436>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-13T11:10:59.967Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T11:12:01.906Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/432> ;
+  skos:definition """Officiele naam werkgever zoals geregistreerd bij de KvK (voorbeeld: Ordina B.V.)
+Degene die jouw inhuurt om een bepaalde verrichting uit te voeren inruil voor geld."""@nl ;
+  skos:prefLabel "Werkgever"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/437>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:created "2020-07-13T11:12:25.083Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/Bilal.Sariordina.nl> ;
+  dcterms:modified "2020-07-13T11:13:08.359Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/143> ;
+  skos:definition """de lengte van de persoon in een meeteenheid, vaak in centimeters of meters.
+"""@nl ;
+  skos:prefLabel "Lengte"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/44>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T13:32:39.384Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:35:41.968Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/297> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/298> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/299> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/300> ;
+  skos:prefLabel "Locatie"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/39> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/45>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/ingridthurlings> ;
+  dcterms:created "2020-04-29T13:33:16.059Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-07T16:30:40.057Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/58> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/59> ;
+  skos:prefLabel "Datum/Tijd"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/39> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/46>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T13:35:41.607Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T11:34:10.563Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/333> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/63> ;
+  skos:prefLabel "Activiteiten"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/39> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/47>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T13:35:54.963Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/337> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/338> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/60> ;
+  skos:prefLabel "Gebeurtenissen"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/39> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/50>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T13:38:46.463Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T10:27:44.192Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/307> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/309> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/311> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/317> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51> ;
+  skos:prefLabel "Relatie"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/39> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/51>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T13:39:00.262Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T10:41:21.499Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/305> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/306> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/334> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/52> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/53> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/54> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/55> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/56> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/57> ;
+  skos:prefLabel "PersoonRelatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/52>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T13:39:06.197Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51> ;
+  skos:prefLabel "Broer"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/53>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T13:39:13.902Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51> ;
+  skos:prefLabel "Moeder"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/54>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T13:39:20.448Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51> ;
+  skos:prefLabel "Vader"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/55>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T13:39:28.448Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51> ;
+  skos:prefLabel "Oma"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/56>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T13:39:34.034Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51> ;
+  skos:prefLabel "Opa"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/57>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T13:39:44.894Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51> ;
+  skos:prefLabel "Kind"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/58>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T13:42:23.622Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:29:01.474Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/45> ;
+  skos:prefLabel "Geboortedatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/59>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T13:42:32.182Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/45> ;
+  skos:prefLabel "Trouwdatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/60>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T13:42:46.263Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/47> ;
+  skos:prefLabel "Trouwen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/61>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T13:42:58.026Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T10:29:43.073Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281> ;
+  skos:prefLabel "Huis"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/62>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T13:43:05.719Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T10:29:34.115Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281> ;
+  skos:prefLabel "Auto"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/63>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T13:46:28.290Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/46> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/330> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/64> ;
+  skos:prefLabel "Hobby"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/64>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T13:46:34.087Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/63> ;
+  skos:prefLabel "Voetbal"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/72>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T13:52:29.279Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:32:52.395Z"^^xsd:dateTime ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/74> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/75> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/96> ;
+  skos:prefLabel "Eigenschappen"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/39> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/74>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T13:53:02.111Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:37:47.214Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/72> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/340> ;
+  skos:prefLabel "Karakter"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/75>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T13:53:17.466Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:37:26.468Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/72> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/322> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/323> ;
+  skos:prefLabel "Fysiek"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/86>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T14:12:08.062Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/ordina> ;
+  skos:prefLabel "Elvin Dechesne"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/40> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/87>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/ordina> ;
+  dcterms:created "2020-04-29T14:12:17.697Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/ordina> ;
+  dcterms:modified "2020-04-29T14:24:14.674Z"^^xsd:dateTime ;
+  skos:prefLabel "lichaamslengte 186cm"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/40> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/88>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T14:12:32.135Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/ordina> ;
+  skos:prefLabel "Semantisch Modelleur"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/40> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/89>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T14:12:52.102Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/ordina> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/95> ;
+  skos:prefLabel "Werkt bij Ordina"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/40> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/90>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T14:13:09.877Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/ordina> ;
+  dcterms:modified "2020-07-06T12:59:14.158Z"^^xsd:dateTime ;
+  skos:prefLabel "43 jaar oud"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/40> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/91>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T14:13:29.625Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/ordina> ;
+  skos:prefLabel "Donkerblond / rossig haar"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/40> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/92>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T14:13:40.118Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/ordina> ;
+  skos:prefLabel "Dochter van 8"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/40> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/93>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T14:13:55.215Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/ordina> ;
+  skos:prefLabel "Woont in Monnickendam"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/40> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/94>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T14:14:04.398Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/ordina> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/104> ;
+  skos:prefLabel "Getrouwd met Ellena Nash"@nl ;
+  skos:topConceptOf <https://ordina.poolparty.biz/ProfessionalstrainingESDM/40> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/95>
+  a skos:Concept ;
+  dcterms:created "2020-04-29T14:14:41.571Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/ordina> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/89> ;
+  skos:prefLabel "locatie Nieuwegein"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/96>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T14:14:56.818Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:37:38.141Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/72> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/99> ;
+  skos:prefLabel "Identificerend"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/99>
+  a skos:Concept ;
+  dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:created "2020-04-29T14:15:51.575Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:modified "2020-07-10T12:13:04.235Z"^^xsd:dateTime ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/96> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/101> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/324> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/325> ;
+  skos:prefLabel "Naam"@nl ;
+.

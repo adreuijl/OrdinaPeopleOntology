@@ -1,0 +1,490 @@
+# baseURI: http://linkeddata.ordina.nl/begrippen/
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix begrip: <https://ordina.poolparty.biz/ProfessionalstrainingESDM/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://linkeddata.ordina.nl/begrippen/>
+  a owl:Ontology ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/101_Achternaam>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/99_Naam> ;
+  skos:prefLabel "Achternaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/103_Leeftijd>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339_Demografie> ;
+  skos:prefLabel "Leeftijd"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/281_Goed>
+  a skos:Concept ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/292_Gebouw> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/331_Muziekinstrument> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/61_Huis> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/62_Auto> ;
+  skos:prefLabel "Goed"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/282_Functie>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339_Demografie> ;
+  skos:prefLabel "Functie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/285_Gezin>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288_Groep> ;
+  skos:prefLabel "Gezin"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/286_Persoon>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/293_LevendOrganisme> ;
+  skos:prefLabel "Persoon"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/288_Groep>
+  a skos:Concept ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/285_Gezin> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/289_Kerkgenootschap> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/290_Band> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/291_Bedrijf> ;
+  skos:prefLabel "Groep"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/289_Kerkgenootschap>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288_Groep> ;
+  skos:prefLabel "Kerkgenootschap"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/290_Band>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288_Groep> ;
+  skos:prefLabel "Band"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/291_Bedrijf>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288_Groep> ;
+  skos:prefLabel "Bedrijf"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/292_Gebouw>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281_Goed> ;
+  skos:prefLabel "Gebouw"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/293_LevendOrganisme>
+  a skos:Concept ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/286_Persoon> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/294_Huisdier> ;
+  skos:prefLabel "Levend organisme"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/294_Huisdier>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/293_LevendOrganisme> ;
+  skos:prefLabel "Huisdier"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/295_Situatie>
+  a skos:Concept ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/296_Gezinssituatie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/313_Werksituatie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/327_Woonsituatie> ;
+  skos:prefLabel "Situatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/296_Gezinssituatie>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/295_Situatie> ;
+  skos:prefLabel "Gezinssituatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/297_Plaats>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44_Locatie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/301_Stad> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/302_Dorp> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/303_Buurtschap> ;
+  skos:prefLabel "Plaats"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/298_Land>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44_Locatie> ;
+  skos:prefLabel "Land"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/299_Provincie>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44_Locatie> ;
+  skos:prefLabel "Provincie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/300_Adres>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44_Locatie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/341_Woonadres> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/342_Thuisadres> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/343_Kantooradres> ;
+  skos:prefLabel "Adres"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/301_Stad>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/297_Plaats> ;
+  skos:prefLabel "Stad"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/302_Dorp>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/297_Plaats> ;
+  skos:prefLabel "Dorp"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/303_Buurtschap>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/297_Plaats> ;
+  skos:prefLabel "Buurtschap"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/305_Vriend>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> ;
+  skos:prefLabel "Vriend"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/306_Vriendin>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> ;
+  skos:prefLabel "Vriendin"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/307_GevoelRelatie>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/308_HoudVan> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/314_HekelAan> ;
+  skos:prefLabel "GevoelRelatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/308_HoudVan>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/307_GevoelRelatie> ;
+  skos:prefLabel "HoudVan"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/309_ActiviteitRelatie>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/310_Beoefend> ;
+  skos:prefLabel "ActiviteitRelatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/310_Beoefend>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/309_ActiviteitRelatie> ;
+  skos:prefLabel "Beoefend"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/311_Locatierelatie>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/312_Geboorteplaats> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/315_Thuis> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/316_Kantoor> ;
+  skos:prefLabel "Locatierelatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/312_Geboorteplaats>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/311_Locatierelatie> ;
+  skos:prefLabel "Geboorteplaats"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/313_Werksituatie>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/295_Situatie> ;
+  skos:prefLabel "Werksituatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/314_HekelAan>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/307_GevoelRelatie> ;
+  skos:prefLabel "HekelAan"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/315_Thuis>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/311_Locatierelatie> ;
+  skos:prefLabel "Thuis"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/316_Kantoor>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/311_Locatierelatie> ;
+  skos:prefLabel "Kantoor"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/317_GroepRelatie>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/318_OnderdeelVan> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/319_Leider> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/332_Werkgever> ;
+  skos:prefLabel "GroepRelatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/318_OnderdeelVan>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/317_GroepRelatie> ;
+  skos:prefLabel "OnderdeelVan"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/319_Leider>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/317_GroepRelatie> ;
+  skos:prefLabel "Leider"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/322_Lengte>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/75_Fysiek> ;
+  skos:prefLabel "Lengte"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/323_Haarkleur>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/75_Fysiek> ;
+  skos:prefLabel "Haarkleur"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/324_Voornaam>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/99_Naam> ;
+  skos:prefLabel "Voornaam"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/325_Tussenvoegsel>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/99_Naam> ;
+  skos:prefLabel "Tussenvoegsel"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/327_Woonsituatie>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/295_Situatie> ;
+  skos:prefLabel "Woonsituatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/330_MuziekMaken>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/63_Hobby> ;
+  skos:prefLabel "Muziek maken"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/331_Muziekinstrument>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281_Goed> ;
+  skos:prefLabel "Muziekinstrument"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/332_Werkgever>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/317_GroepRelatie> ;
+  skos:prefLabel "Werkgever"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/333_Beroep>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339_Demografie> ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/46_Activiteiten> ;
+  skos:prefLabel "Beroep"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/334_Gezinslid>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> ;
+  skos:prefLabel "Gezinslid"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/335_Geslacht>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339_Demografie> ;
+  skos:prefLabel "Geslacht"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/337_Scheiden>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/47_Gebeurtenissen> ;
+  skos:prefLabel "Scheiden"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/338_Overlijden>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/47_Gebeurtenissen> ;
+  skos:prefLabel "Overlijden"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/339_Demografie>
+  a skos:Concept ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/103_Leeftijd> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/282_Functie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/333_Beroep> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/335_Geslacht> ;
+  skos:prefLabel "Demografie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/340_Spontaan>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/74_Karakter> ;
+  skos:prefLabel "Spontaan"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/341_Woonadres>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/300_Adres> ;
+  skos:prefLabel "Woonadres"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/342_Thuisadres>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/300_Adres> ;
+  skos:prefLabel "Thuisadres"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/343_Kantooradres>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/300_Adres> ;
+  skos:prefLabel "Kantooradres"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/39_OrdinaPersonen>
+  a skos:ConceptScheme ;
+  dcterms:created "2020-04-29T13:16:36.585Z"^^xsd:dateTime ;
+  dcterms:creator <https://ordina.poolparty.biz/user/adreuijl> ;
+  dcterms:description "Een gedeeld begrippenkader"@nl ;
+  dcterms:modified "2020-07-10T11:36:07.235Z"^^xsd:dateTime ;
+  dcterms:publisher <https://ordina.poolparty.biz/user/Ordina> ;
+  dcterms:subject "ESDM Begrippenkaders"@nl ;
+  dcterms:title "Ordina Personen"@nl ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281_Goed> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288_Groep> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/293_LevendOrganisme> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/295_Situatie> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339_Demografie> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44_Locatie> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/45_Datum/Tijd> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/46_Activiteiten> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/47_Gebeurtenissen> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie> ;
+  skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/72_Eigenschappen> ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/44_Locatie>
+  a skos:Concept ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/297_Plaats> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/298_Land> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/299_Provincie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/300_Adres> ;
+  skos:prefLabel "Locatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/45_Datum/Tijd>
+  a skos:Concept ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/58_Geboortedatum> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/59_Trouwdatum> ;
+  skos:prefLabel "Datum/Tijd"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/46_Activiteiten>
+  a skos:Concept ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/333_Beroep> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/63_Hobby> ;
+  skos:prefLabel "Activiteiten"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/47_Gebeurtenissen>
+  a skos:Concept ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/337_Scheiden> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/338_Overlijden> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/60_Trouwen> ;
+  skos:prefLabel "Gebeurtenissen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie>
+  a skos:Concept ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/307_GevoelRelatie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/309_ActiviteitRelatie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/311_Locatierelatie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/317_GroepRelatie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> ;
+  skos:prefLabel "Relatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/305_Vriend> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/306_Vriendin> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/334_Gezinslid> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/52_Broer> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/53_Moeder> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/54_Vader> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/55_Oma> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/56_Opa> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/57_Kind> ;
+  skos:prefLabel "PersoonRelatie"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/52_Broer>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> ;
+  skos:prefLabel "Broer"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/53_Moeder>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> ;
+  skos:prefLabel "Moeder"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/54_Vader>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> ;
+  skos:prefLabel "Vader"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/55_Oma>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> ;
+  skos:prefLabel "Oma"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/56_Opa>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> ;
+  skos:prefLabel "Opa"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/57_Kind>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> ;
+  skos:prefLabel "Kind"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/58_Geboortedatum>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/45_Datum/Tijd> ;
+  skos:prefLabel "Geboortedatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/59_Trouwdatum>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/45_Datum/Tijd> ;
+  skos:prefLabel "Trouwdatum"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/60_Trouwen>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/47_Gebeurtenissen> ;
+  skos:prefLabel "Trouwen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/61_Huis>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281_Goed> ;
+  skos:prefLabel "Huis"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/62_Auto>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281_Goed> ;
+  skos:prefLabel "Auto"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/63_Hobby>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/46_Activiteiten> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/330_MuziekMaken> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/64_Voetbal> ;
+  skos:prefLabel "Hobby"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/64_Voetbal>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/63_Hobby> ;
+  skos:prefLabel "Voetbal"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/72_Eigenschappen>
+  a skos:Concept ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/74_Karakter> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/75_Fysiek> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/96_Identificerend> ;
+  skos:prefLabel "Eigenschappen"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/74_Karakter>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/72_Eigenschappen> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/340_Spontaan> ;
+  skos:prefLabel "Karakter"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/75_Fysiek>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/72_Eigenschappen> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/322_Lengte> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/323_Haarkleur> ;
+  skos:prefLabel "Fysiek"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/96_Identificerend>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/72_Eigenschappen> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/99_Naam> ;
+  skos:prefLabel "Identificerend"@nl ;
+.
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/99_Naam>
+  a skos:Concept ;
+  skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/96_Identificerend> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/101_Achternaam> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/324_Voornaam> ;
+  skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/325_Tussenvoegsel> ;
+  skos:prefLabel "Naam"@nl ;
+.

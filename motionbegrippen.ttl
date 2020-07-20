@@ -74,7 +74,7 @@ motionbegrippen:ApplyConstruct
                 sp:varName "schemep" ;
               ] ;
             sp:subject [
-                sp:varName "scheme" ;
+                sp:varName "schemeuri" ;
               ] ;
           ]
           [
@@ -83,7 +83,7 @@ motionbegrippen:ApplyConstruct
               ] ;
             sp:predicate skos:hasTopConcept ;
             sp:subject [
-                sp:varName "scheme" ;
+                sp:varName "schemeuri" ;
               ] ;
           ]
         ) ;
@@ -257,6 +257,15 @@ motionbegrippen:ApplyConstruct
                       ] ;
                   ]
                   [
+                    sp:object [
+                        sp:varName "schemelabel" ;
+                      ] ;
+                    sp:predicate <http://purl.org/dc/terms/title> ;
+                    sp:subject [
+                        sp:varName "scheme" ;
+                      ] ;
+                  ]
+                  [
                     sp:object <https://ordina.poolparty.biz/user/adreuijl> ;
                     sp:predicate <http://purl.org/dc/terms/creator> ;
                     sp:subject [
@@ -301,6 +310,31 @@ motionbegrippen:ApplyConstruct
                             sp:arg1 [
                                 a sp:str ;
                                 sp:arg1 [
+                                    sp:varName "scheme" ;
+                                  ] ;
+                              ] ;
+                            sp:arg2 "_" ;
+                            sp:arg3 [
+                                a smf:camelCase ;
+                                sp:arg1 [
+                                    sp:varName "schemelabel" ;
+                                  ] ;
+                              ] ;
+                          ] ;
+                      ] ;
+                    sp:variable [
+                        sp:varName "schemeuri" ;
+                      ] ;
+                  ]
+                  [
+                    a sp:Bind ;
+                    sp:expression [
+                        a sp:uri ;
+                        sp:arg1 [
+                            a sp:concat ;
+                            sp:arg1 [
+                                a sp:str ;
+                                sp:arg1 [
                                     sp:varName "topconcept" ;
                                   ] ;
                               ] ;
@@ -316,6 +350,20 @@ motionbegrippen:ApplyConstruct
                     sp:variable [
                         sp:varName "tpc" ;
                       ] ;
+                  ]
+                  [
+                    a sp:Minus ;
+                    sp:elements (
+                        [
+                          sp:object [
+                              sp:varName "schemeo" ;
+                            ] ;
+                          sp:predicate skos:hasTopConcept ;
+                          sp:subject [
+                              sp:varName "scheme" ;
+                            ] ;
+                        ]
+                      ) ;
                   ]
                 )
               ) ;

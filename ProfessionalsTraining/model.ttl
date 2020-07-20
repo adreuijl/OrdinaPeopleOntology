@@ -1,0 +1,234 @@
+# baseURI: http://linkeddata.ordina.nl/ontologie/
+# prefix: ontologie
+
+@prefix ontologie: <http://linkeddata.ordina.nl/ontologie/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ontologie:
+  a owl:Ontology ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+ontologie:Activiteit
+  a owl:Class ;
+  rdfs:label "Activiteit" ;
+  rdfs:subClassOf owl:Thing ;
+.
+ontologie:ActiviteitType
+  a owl:Class ;
+  rdfs:label "Activiteit type" ;
+  rdfs:subClassOf owl:Thing ;
+.
+ontologie:ActiviteitType_Hobby
+  a ontologie:ActiviteitType ;
+  rdfs:label "Activiteit type Hobby" ;
+.
+ontologie:ActiviteitType_Muziek
+  a ontologie:ActiviteitType ;
+  rdfs:label "Activiteit type Muziek" ;
+.
+ontologie:ActiviteitType_Sport
+  a ontologie:ActiviteitType ;
+  rdfs:label "Activiteit type Sport" ;
+.
+ontologie:Adres
+  a owl:Class ;
+  rdfs:label "Adres" ;
+  rdfs:subClassOf owl:Thing ;
+.
+ontologie:Goed
+  a owl:Class ;
+  rdfs:label "Goed" ;
+  rdfs:subClassOf owl:Thing ;
+.
+ontologie:Groep
+  a owl:Class ;
+  rdfs:label "Groep" ;
+  rdfs:subClassOf owl:Thing ;
+.
+ontologie:Huisdier
+  a owl:Class ;
+  rdfs:label "Huisdier" ;
+  rdfs:subClassOf owl:Thing ;
+.
+ontologie:Huishouden
+  a owl:Class ;
+  rdfs:label "Huishouden" ;
+  rdfs:subClassOf ontologie:Groep ;
+.
+ontologie:Persoon
+  a owl:Class ;
+  rdfs:label "Persoon" ;
+  rdfs:subClassOf owl:Thing ;
+.
+ontologie:Werk
+  a owl:Class ;
+  rdfs:label "Werk" ;
+  rdfs:subClassOf owl:Thing ;
+.
+ontologie:achternaam
+  a owl:DatatypeProperty ;
+  rdfs:label "achternaam" ;
+.
+ontologie:beoefent
+  a owl:ObjectProperty ;
+  rdfs:label "beoefent" ;
+.
+ontologie:bestaatUit
+  a owl:ObjectProperty ;
+  rdfs:label "bestaat uit" ;
+.
+ontologie:bezit
+  a owl:ObjectProperty ;
+  rdfs:label "bezit" ;
+.
+ontologie:burgelijkestaat
+  a owl:DatatypeProperty ;
+  rdfs:label "burgelijkestaat" ;
+.
+ontologie:diersoort
+  a owl:DatatypeProperty ;
+  rdfs:label "diersoort" ;
+.
+ontologie:emailadres
+  a owl:DatatypeProperty ;
+  rdfs:label "emailadres" ;
+.
+ontologie:functie
+  a owl:DatatypeProperty ;
+  rdfs:label "functie" ;
+.
+ontologie:geboortedatum
+  a owl:DatatypeProperty ;
+  rdfs:label "geboortedatum" ;
+.
+ontologie:gebruikt
+  a owl:ObjectProperty ;
+  rdfs:label "gebruikt" ;
+.
+ontologie:geslacht
+  a owl:DatatypeProperty ;
+  rdfs:label "geslacht" ;
+.
+ontologie:gezinssituatie
+  a owl:DatatypeProperty ;
+  rdfs:label "gezinssituatie" ;
+.
+ontologie:haar
+  a owl:DatatypeProperty ;
+  rdfs:label "haar" ;
+.
+ontologie:haarkleur
+  a owl:DatatypeProperty ;
+  rdfs:label "haarkleur" ;
+.
+ontologie:heeft
+  a owl:ObjectProperty ;
+  rdfs:label "heeft" ;
+.
+ontologie:heeftAdres
+  a owl:ObjectProperty ;
+  rdfs:label "heeft adres" ;
+  rdfs:subPropertyOf ontologie:heeft ;
+.
+ontologie:heeftDomicielAdres
+  a owl:ObjectProperty ;
+  rdfs:label "heeft domiciel adres" ;
+  rdfs:subPropertyOf ontologie:heeftAdres ;
+.
+ontologie:heeftKind
+  a owl:ObjectProperty ;
+  rdfs:label "heeft kind" ;
+  rdfs:subPropertyOf ontologie:heeft ;
+.
+ontologie:heeftNaam
+  a rdf:Property ;
+  rdfs:label "heeft naam" ;
+.
+ontologie:heeftPartner
+  a owl:ObjectProperty ;
+  rdfs:label "heeft partner" ;
+  rdfs:subPropertyOf ontologie:heeft ;
+.
+ontologie:heeftPleegkind
+  a owl:ObjectProperty ;
+  rdfs:label "heeft pleegkind" ;
+  rdfs:subPropertyOf ontologie:heeft ;
+.
+ontologie:heeftType
+  a owl:ObjectProperty ;
+  rdfs:label "heeft type" ;
+  rdfs:subPropertyOf ontologie:heeft ;
+.
+ontologie:heeftWerk
+  a owl:ObjectProperty ;
+  rdfs:label "heeft werk" ;
+  rdfs:subPropertyOf ontologie:heeft ;
+.
+ontologie:heeftWoonAdres
+  a owl:ObjectProperty ;
+  rdfs:label "heeft woon adres" ;
+  rdfs:subPropertyOf ontologie:heeftAdres ;
+.
+ontologie:huisnummer
+  a owl:DatatypeProperty ;
+  rdfs:label "huisnummer" ;
+.
+ontologie:leeftijd
+  a owl:DatatypeProperty ;
+  rdfs:label "leeftijd" ;
+.
+ontologie:lengte
+  a owl:DatatypeProperty ;
+  rdfs:label "lengte" ;
+.
+ontologie:naam
+  a owl:DatatypeProperty ;
+  rdfs:label "naam" ;
+.
+ontologie:officieleNaam
+  a owl:DatatypeProperty ;
+  rdfs:label "officiele naam" ;
+.
+ontologie:omschrijving
+  a owl:DatatypeProperty ;
+  rdfs:label "omschrijving" ;
+.
+ontologie:postcode
+  a owl:DatatypeProperty ;
+  rdfs:label "postcode" ;
+.
+ontologie:primaireFunctie
+  a owl:DatatypeProperty ;
+  rdfs:label "primaire functie" ;
+.
+ontologie:straatnaam
+  a owl:DatatypeProperty ;
+  rdfs:label "straatnaam" ;
+.
+ontologie:tussenvoegsel
+  a owl:DatatypeProperty ;
+  rdfs:label "tussenvoegsel" ;
+.
+ontologie:vakgebied
+  a owl:DatatypeProperty ;
+  rdfs:label "vakgebied" ;
+.
+ontologie:voornaam
+  a owl:DatatypeProperty ;
+  rdfs:label "voornaam" ;
+.
+ontologie:werkgever
+  a owl:DatatypeProperty ;
+  rdfs:label "werkgever" ;
+.
+ontologie:woonplaats
+  a owl:DatatypeProperty ;
+  rdfs:label "woonplaats" ;
+.
+ontologie:woonsituatie
+  a owl:DatatypeProperty ;
+  rdfs:label "woonsituatie" ;
+.

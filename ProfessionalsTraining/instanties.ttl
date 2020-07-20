@@ -1,13 +1,87 @@
 # baseURI: http://linkeddata.ordina.nl/instantie/
+# imports: http://linkeddata.ordina.nl/ontologie/
+# imports: http://spinrdf.org/spin
 # prefix: instantie
 
 @prefix instantie: <http://linkeddata.ordina.nl/instantie/> .
+@prefix ontologie: <http://linkeddata.ordina.nl/ontologie/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sp: <http://spinrdf.org/sp#> .
+@prefix spin: <http://spinrdf.org/spin#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 instantie:
   a owl:Ontology ;
+  spin:query [
+      a sp:Select ;
+      sp:resultVariables (
+          [
+            sp:varName "s" ;
+          ]
+          [
+            sp:varName "p" ;
+          ]
+          [
+            sp:varName "o" ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object ontologie:Persoon ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "s" ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "o" ;
+              ] ;
+            sp:predicate [
+                sp:varName "p" ;
+              ] ;
+            sp:subject [
+                sp:varName "s" ;
+              ] ;
+          ]
+          [
+            a sp:TriplePath ;
+            sp:object ontologie:heeft ;
+            sp:path [
+                a sp:ModPath ;
+                sp:modMax -2 ;
+                sp:modMin 0 ;
+                sp:subPath rdfs:subPropertyOf ;
+              ] ;
+            sp:subject [
+                sp:varName "p" ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  owl:imports ontologie: ;
+  owl:imports <http://spinrdf.org/spin> ;
   owl:versionInfo "Created with TopBraid Composer" ;
+.
+instantie:Adres_BeekbergenLoenenseWeg101
+  a ontologie:Adres ;
+  ontologie:postcode "7361ge" ;
+  ontologie:woonplaats "Beekbergen" ;
+  rdfs:label "Adres Beekbergen loenense weg101" ;
+  skos:prefLabel "Adres Beekbergen loenense weg101" ;
+.
+instantie:Persoon_AdReuijl
+  a ontologie:Persoon ;
+  ontologie:heeftPleegkind instantie:Persoon_PleegkindTiffany ;
+  ontologie:heeftWoonAdres instantie:Adres_BeekbergenLoenenseWeg101 ;
+  rdfs:label "Persoon Ad reuijl" ;
+  skos:prefLabel "Persoon Ad reuijl" ;
+.
+instantie:Persoon_PleegkindTiffany
+  a ontologie:Persoon ;
+  rdfs:label "Persoon Pleegkind tiffany" ;
+  skos:prefLabel "Persoon Pleegkind tiffany" ;
 .

@@ -1,4 +1,7 @@
 # baseURI: http://linkeddata.ordina.nl/ontologie/
+# imports: http://purl.org/dc/elements/1.1/
+# imports: http://purl.org/dc/terms/
+# imports: http://www.w3.org/2000/01/rdf-schema
 # prefix: ontologie
 
 @prefix ontologie: <http://linkeddata.ordina.nl/ontologie/> .
@@ -9,6 +12,9 @@
 
 ontologie:
   a owl:Ontology ;
+  owl:imports <http://purl.org/dc/elements/1.1/> ;
+  owl:imports <http://purl.org/dc/terms/> ;
+  owl:imports <http://www.w3.org/2000/01/rdf-schema> ;
   owl:versionInfo "Created with TopBraid Composer" ;
 .
 ontologie:Activiteit
@@ -70,59 +76,88 @@ ontologie:Werk
 .
 ontologie:achternaam
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "achternaam" ;
+  rdfs:range xsd:string ;
 .
 ontologie:beoefent
   a owl:ObjectProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "beoefent" ;
+  rdfs:range ontologie:Activiteit ;
 .
 ontologie:bestaatUit
   a owl:ObjectProperty ;
+  rdfs:domain ontologie:Huishouden ;
   rdfs:label "bestaat uit" ;
+  rdfs:range ontologie:Persoon ;
 .
 ontologie:bezit
   a owl:ObjectProperty ;
+  rdfs:domain ontologie:Huishouden ;
   rdfs:label "bezit" ;
+  rdfs:range ontologie:Huisdier ;
 .
 ontologie:burgelijkestaat
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "burgelijkestaat" ;
+  rdfs:range xsd:string ;
 .
 ontologie:diersoort
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Huisdier ;
   rdfs:label "diersoort" ;
+  rdfs:range xsd:string ;
 .
 ontologie:emailadres
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "emailadres" ;
+  rdfs:range xsd:string ;
 .
 ontologie:functie
   a owl:DatatypeProperty ;
-  rdfs:label "functie" ;
+  rdfs:domain ontologie:Werk ;
+  rdfs:label "Functie" ;
+  rdfs:label "Rol" ;
+  rdfs:range xsd:string ;
 .
 ontologie:geboortedatum
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "geboortedatum" ;
+  rdfs:range xsd:date ;
 .
 ontologie:gebruikt
   a owl:ObjectProperty ;
+  rdfs:domain ontologie:Activiteit ;
   rdfs:label "gebruikt" ;
+  rdfs:range ontologie:Goed ;
 .
 ontologie:geslacht
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "geslacht" ;
+  rdfs:range xsd:string ;
 .
 ontologie:gezinssituatie
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "gezinssituatie" ;
+  rdfs:range xsd:string ;
 .
 ontologie:haar
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "haar" ;
+  rdfs:range xsd:boolean ;
 .
 ontologie:haarkleur
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "haarkleur" ;
+  rdfs:range xsd:string ;
 .
 ontologie:heeft
   a owl:ObjectProperty ;
@@ -130,105 +165,153 @@ ontologie:heeft
 .
 ontologie:heeftAdres
   a owl:ObjectProperty ;
+  rdfs:domain ontologie:Huishouden ;
+  rdfs:domain ontologie:Werk ;
   rdfs:label "heeft adres" ;
+  rdfs:range ontologie:Adres ;
   rdfs:subPropertyOf ontologie:heeft ;
 .
 ontologie:heeftDomicielAdres
   a owl:ObjectProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "heeft domiciel adres" ;
+  rdfs:range ontologie:Adres ;
   rdfs:subPropertyOf ontologie:heeftAdres ;
 .
 ontologie:heeftKind
   a owl:ObjectProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "heeft kind" ;
+  rdfs:range ontologie:Persoon ;
   rdfs:subPropertyOf ontologie:heeft ;
-.
-ontologie:heeftNaam
-  a rdf:Property ;
-  rdfs:label "heeft naam" ;
 .
 ontologie:heeftPartner
   a owl:ObjectProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "heeft partner" ;
+  rdfs:range ontologie:Persoon ;
   rdfs:subPropertyOf ontologie:heeft ;
 .
 ontologie:heeftPleegkind
   a owl:ObjectProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "heeft pleegkind" ;
+  rdfs:range ontologie:Persoon ;
   rdfs:subPropertyOf ontologie:heeft ;
 .
 ontologie:heeftType
   a owl:ObjectProperty ;
+  rdfs:domain ontologie:Activiteit ;
   rdfs:label "heeft type" ;
+  rdfs:range ontologie:ActiviteitType ;
   rdfs:subPropertyOf ontologie:heeft ;
 .
 ontologie:heeftWerk
   a owl:ObjectProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "heeft werk" ;
+  rdfs:range ontologie:Werk ;
   rdfs:subPropertyOf ontologie:heeft ;
 .
 ontologie:heeftWoonAdres
   a owl:ObjectProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "heeft woon adres" ;
+  rdfs:range ontologie:Adres ;
   rdfs:subPropertyOf ontologie:heeftAdres ;
 .
 ontologie:huisnummer
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "huisnummer" ;
+  rdfs:range xsd:integer ;
 .
 ontologie:leeftijd
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "leeftijd" ;
+  rdfs:range xsd:integer ;
 .
 ontologie:lengte
   a owl:DatatypeProperty ;
+  rdfs:comment "Lengte in gehele cm's" ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "lengte" ;
+  rdfs:range xsd:integer ;
 .
 ontologie:naam
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Goed ;
+  rdfs:domain ontologie:Huisdier ;
+  rdfs:domain ontologie:Huishouden ;
   rdfs:label "naam" ;
+  rdfs:range xsd:string ;
 .
 ontologie:officieleNaam
   a owl:DatatypeProperty ;
+  rdfs:comment "De statutaire naam vanuit het handelsregister" ;
+  rdfs:domain ontologie:Werk ;
   rdfs:label "officiele naam" ;
+  rdfs:range xsd:string ;
 .
 ontologie:omschrijving
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Activiteit ;
+  rdfs:domain ontologie:Goed ;
   rdfs:label "omschrijving" ;
+  rdfs:range xsd:string ;
 .
 ontologie:postcode
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Adres ;
   rdfs:label "postcode" ;
+  rdfs:range xsd:string ;
 .
 ontologie:primaireFunctie
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Goed ;
   rdfs:label "primaire functie" ;
+  rdfs:range xsd:string ;
 .
 ontologie:straatnaam
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Adres ;
   rdfs:label "straatnaam" ;
+  rdfs:range xsd:string ;
 .
 ontologie:tussenvoegsel
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "tussenvoegsel" ;
+  rdfs:range xsd:string ;
 .
 ontologie:vakgebied
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Werk ;
   rdfs:label "vakgebied" ;
+  rdfs:range xsd:string ;
 .
 ontologie:voornaam
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "voornaam" ;
+  rdfs:range xsd:string ;
 .
 ontologie:werkgever
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Werk ;
   rdfs:label "werkgever" ;
+  rdfs:range xsd:string ;
 .
 ontologie:woonplaats
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Adres ;
   rdfs:label "woonplaats" ;
+  rdfs:range xsd:string ;
 .
 ontologie:woonsituatie
   a owl:DatatypeProperty ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "woonsituatie" ;
+  rdfs:range xsd:string ;
 .

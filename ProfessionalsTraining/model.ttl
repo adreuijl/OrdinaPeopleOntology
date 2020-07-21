@@ -68,6 +68,7 @@ ontologie:Persoon
   a owl:Class ;
   rdfs:label "Persoon" ;
   rdfs:subClassOf owl:Thing ;
+  owl:equivalentClass <http://dbpedia.org/ontology/Person> ;
 .
 ontologie:Werk
   a owl:Class ;

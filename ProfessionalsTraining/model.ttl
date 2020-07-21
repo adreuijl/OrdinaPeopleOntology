@@ -1,9 +1,11 @@
 # baseURI: http://linkeddata.ordina.nl/ontologie/
+# imports: http://linkeddata.ordina.nl/begrippen/
 # imports: http://purl.org/dc/elements/1.1/
 # imports: http://purl.org/dc/terms/
 # imports: http://www.w3.org/2000/01/rdf-schema
 # prefix: ontologie
 
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ontologie: <http://linkeddata.ordina.nl/ontologie/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -12,8 +14,9 @@
 
 ontologie:
   a owl:Ontology ;
+  owl:imports <http://linkeddata.ordina.nl/begrippen/> ;
   owl:imports <http://purl.org/dc/elements/1.1/> ;
-  owl:imports <http://purl.org/dc/terms/> ;
+  owl:imports dcterms: ;
   owl:imports <http://www.w3.org/2000/01/rdf-schema> ;
   owl:versionInfo "Created with TopBraid Composer" ;
 .
@@ -24,6 +27,7 @@ ontologie:Activiteit
 .
 ontologie:ActiviteitType
   a owl:Class ;
+  dcterms:subject <https://ordina.poolparty.biz/ProfessionalstrainingESDM/46_Activiteiten> ;
   rdfs:label "Activiteit type" ;
   rdfs:subClassOf owl:Thing ;
 .
@@ -41,21 +45,25 @@ ontologie:ActiviteitType_Sport
 .
 ontologie:Adres
   a owl:Class ;
+  dcterms:subject <https://ordina.poolparty.biz/ProfessionalstrainingESDM/300_Adres> ;
   rdfs:label "Adres" ;
   rdfs:subClassOf owl:Thing ;
 .
 ontologie:Goed
   a owl:Class ;
+  dcterms:subject <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281_Goed> ;
   rdfs:label "Goed" ;
   rdfs:subClassOf owl:Thing ;
 .
 ontologie:Groep
   a owl:Class ;
+  dcterms:subject <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288_Groep> ;
   rdfs:label "Groep" ;
   rdfs:subClassOf owl:Thing ;
 .
 ontologie:Huisdier
   a owl:Class ;
+  dcterms:subject <https://ordina.poolparty.biz/ProfessionalstrainingESDM/294_Huisdier> ;
   rdfs:label "Huisdier" ;
   rdfs:subClassOf owl:Thing ;
 .
@@ -66,6 +74,7 @@ ontologie:Huishouden
 .
 ontologie:Persoon
   a owl:Class ;
+  dcterms:subject <https://ordina.poolparty.biz/ProfessionalstrainingESDM/286_Persoon> ;
   rdfs:label "Persoon" ;
   rdfs:subClassOf owl:Thing ;
   owl:equivalentClass <http://dbpedia.org/ontology/Person> ;
@@ -162,12 +171,13 @@ ontologie:haarkleur
 .
 ontologie:heeft
   a owl:ObjectProperty ;
+  rdfs:domain owl:Thing ;
   rdfs:label "heeft" ;
+  rdfs:range owl:Thing ;
 .
 ontologie:heeftAdres
   a owl:ObjectProperty ;
-  rdfs:domain ontologie:Huishouden ;
-  rdfs:domain ontologie:Werk ;
+  rdfs:domain owl:Thing ;
   rdfs:label "heeft adres" ;
   rdfs:range ontologie:Adres ;
   rdfs:subPropertyOf ontologie:heeft ;
@@ -242,9 +252,7 @@ ontologie:lengte
 .
 ontologie:naam
   a owl:DatatypeProperty ;
-  rdfs:domain ontologie:Goed ;
-  rdfs:domain ontologie:Huisdier ;
-  rdfs:domain ontologie:Huishouden ;
+  rdfs:domain owl:Thing ;
   rdfs:label "naam" ;
   rdfs:range xsd:string ;
 .
@@ -257,8 +265,7 @@ ontologie:officieleNaam
 .
 ontologie:omschrijving
   a owl:DatatypeProperty ;
-  rdfs:domain ontologie:Activiteit ;
-  rdfs:domain ontologie:Goed ;
+  rdfs:domain owl:Thing ;
   rdfs:label "omschrijving" ;
   rdfs:range xsd:string ;
 .

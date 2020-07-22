@@ -379,7 +379,7 @@ motionbegrippen:ExportToRDFFile
   sm:nodeX 116 ;
   sm:nodeY 317 ;
   sml:baseURI "http://linkeddata.ordina.nl/begrippen/" ;
-  sml:targetFilePath "/ProfessionalsTraining/begrippen.ttl" ;
+  sml:targetFilePath "/OrdinaPeopleOntology/ProfessionalsTraining/begrippen.ttl" ;
   rdfs:label "Begrippen export" ;
   skos:prefLabel "Export to RDFFile" ;
 .

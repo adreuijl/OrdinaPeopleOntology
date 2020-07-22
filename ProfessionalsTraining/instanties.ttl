@@ -73,6 +73,11 @@ instantie:Adres_BeekbergenLoenenseWeg101
   rdfs:label "Adres Beekbergen loenense weg101" ;
   skos:prefLabel "Adres Beekbergen loenense weg101" ;
 .
+instantie:Adres_nieuwegein_schipperskade_66
+  a ontologie:Adres ;
+  rdfs:label "Adres nieuwegein schipperskade 66" ;
+  skos:prefLabel "Adres nieuwegein schipperskade 66" ;
+.
 instantie:Persoon_AdReuijl
   a ontologie:Persoon ;
   ontologie:heeftPleegkind instantie:Persoon_PleegkindTiffany ;
@@ -84,4 +89,12 @@ instantie:Persoon_PleegkindTiffany
   a ontologie:Persoon ;
   rdfs:label "Persoon Pleegkind tiffany" ;
   skos:prefLabel "Persoon Pleegkind tiffany" ;
+.
+instantie:Persoon_TestPersoon
+  a ontologie:Persoon ;
+  ontologie:achternaam "BLABLA" ;
+  ontologie:heeftAdres instantie:Adres_nieuwegein_schipperskade_66 ;
+  ontologie:heeftAdres <http://test.nl/uri/adres> ;
+  rdfs:label "Persoon Test persoon" ;
+  skos:prefLabel "Persoon Test persoon" ;
 .

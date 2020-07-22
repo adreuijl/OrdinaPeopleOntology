@@ -249,6 +249,7 @@ ontologie:lengte
   rdfs:domain ontologie:Persoon ;
   rdfs:label "lengte" ;
   rdfs:range xsd:integer ;
+  owl:equivalentProperty <http://dbpedia.org/ontology/Person/height> ;
 .
 ontologie:naam
   a owl:DatatypeProperty ;

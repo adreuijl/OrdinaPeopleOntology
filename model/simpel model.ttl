@@ -2,12 +2,10 @@
 # imports: http://linkeddata.ordina.nl/begrippen/
 # imports: http://purl.org/dc/elements/1.1/
 # imports: http://purl.org/dc/terms/
-# imports: http://spinrdf.org/spin
 # imports: http://www.w3.org/2000/01/rdf-schema
-# imports: http://xmlns.com/foaf/0.1/
+# imports: http://www.w3.org/ns/shacl#
 # prefix: ontologie
 
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ontologie: <http://linkeddata.ordina.nl/ontologie/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -15,27 +13,30 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix sp: <http://spinrdf.org/sp#> .
-@prefix spin: <http://spinrdf.org/spin#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ontologie:
   a owl:Ontology ;
   owl:imports <http://linkeddata.ordina.nl/begrippen/> ;
-  owl:imports dc: ;
+  owl:imports <http://purl.org/dc/elements/1.1/> ;
   owl:imports dcterms: ;
-  owl:imports <http://spinrdf.org/spin> ;
   owl:imports <http://www.w3.org/2000/01/rdf-schema> ;
-  owl:imports <http://xmlns.com/foaf/0.1/> ;
+  owl:imports sh: ;
   owl:versionInfo "Created with TopBraid Composer" ;
 .
 ontologie:Activiteit
   a owl:Class ;
   a sh:NodeShape ;
-  dc:subject <https://ordina.poolparty.biz/ProfessionalstrainingESDM/46_Activiteiten> ;
-  rdfs:comment "Een activiteit is een bezigheid ofzo" ;
   rdfs:label "Activiteit" ;
   rdfs:subClassOf owl:Thing ;
+  sh:property [
+      a sh:PropertyShape ;
+      sh:path ontologie:activiteitNaam ;
+      sh:datatype xsd:string ;
+      sh:maxCount 5 ;
+      sh:minCount 1 ;
+      sh:name "activiteit naam" ;
+    ] ;
 .
 ontologie:ActiviteitType
   a owl:Class ;
@@ -77,56 +78,28 @@ ontologie:Huisdier
   a owl:Class ;
   dcterms:subject <https://ordina.poolparty.biz/ProfessionalstrainingESDM/294_Huisdier> ;
   rdfs:label "Huisdier" ;
-  rdfs:subClassOf ontologie:LevendOrganisme ;
+  rdfs:subClassOf owl:Thing ;
 .
 ontologie:Huishouden
   a owl:Class ;
   rdfs:label "Huishouden" ;
   rdfs:subClassOf ontologie:Groep ;
 .
-ontologie:LevendOrganisme
-  a owl:Class ;
-  dcterms:subject <https://ordina.poolparty.biz/ProfessionalstrainingESDM/293_LevendOrganisme> ;
-  rdfs:label "Levend organisme" ;
-  rdfs:subClassOf owl:Thing ;
-  skos:prefLabel "Levend organisme" ;
-.
 ontologie:Persoon
   a owl:Class ;
   a sh:NodeShape ;
   dcterms:subject <https://ordina.poolparty.biz/ProfessionalstrainingESDM/286_Persoon> ;
-  spin:rule [
-      a sp:Construct ;
-      sp:templates (
-          [
-            sp:object [
-                sp:varName "kennis" ;
-              ] ;
-            sp:predicate <http://xmlns.com/foaf/0.1/knows> ;
-            sp:subject [
-                sp:varName "persoon" ;
-              ] ;
-          ]
-        ) ;
-      sp:where (
-          [
-            sp:object [
-                sp:varName "kennis" ;
-              ] ;
-            sp:predicate ontologie:kentPersoon ;
-            sp:subject [
-                sp:varName "persoon" ;
-              ] ;
-          ]
-        ) ;
-    ] ;
   rdfs:label "Persoon" ;
-  rdfs:subClassOf ontologie:LevendOrganisme ;
+  rdfs:subClassOf owl:Thing ;
   owl:equivalentClass <http://dbpedia.org/ontology/Person> ;
-  owl:equivalentClass <http://xmlns.com/foaf/0.1/Person> ;
+  sh:property ontologie:Persoon-voornaam ;
 .
 ontologie:Persoon-voornaam
   a sh:PropertyShape ;
+  sh:path ontologie:voornaam ;
+  sh:datatype xsd:string ;
+  sh:minCount 1 ;
+  sh:name "voornaam" ;
 .
 ontologie:Werk
   a owl:Class ;
@@ -196,7 +169,7 @@ ontologie:gebruikt
 .
 ontologie:geslacht
   a owl:DatatypeProperty ;
-  rdfs:domain ontologie:LevendOrganisme ;
+  rdfs:domain ontologie:Persoon ;
   rdfs:label "geslacht" ;
   rdfs:range xsd:string ;
 .
@@ -220,11 +193,13 @@ ontologie:haarkleur
 .
 ontologie:heeft
   a owl:ObjectProperty ;
+  rdfs:domain owl:Thing ;
   rdfs:label "heeft" ;
+  rdfs:range owl:Thing ;
 .
 ontologie:heeftAdres
   a owl:ObjectProperty ;
-  rdfs:domain ontologie:Huishouden ;
+  rdfs:domain owl:Thing ;
   rdfs:label "heeft adres" ;
   rdfs:range ontologie:Adres ;
   rdfs:subPropertyOf ontologie:heeft ;
@@ -283,13 +258,6 @@ ontologie:huisnummer
   rdfs:domain ontologie:Persoon ;
   rdfs:label "huisnummer" ;
   rdfs:range xsd:integer ;
-.
-ontologie:kentPersoon
-  a owl:ObjectProperty ;
-  rdfs:domain ontologie:Persoon ;
-  rdfs:label "kent persoon" ;
-  rdfs:range ontologie:Persoon ;
-  skos:prefLabel "kent persoon" ;
 .
 ontologie:leeftijd
   a owl:DatatypeProperty ;
@@ -378,6 +346,3 @@ ontologie:woonsituatie
   rdfs:label "woonsituatie" ;
   rdfs:range xsd:string ;
 .
-[
-  a sh:PropertyShape ;
-].

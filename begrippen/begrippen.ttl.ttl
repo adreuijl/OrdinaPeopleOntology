@@ -1,0 +1,379 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cycAnnot: <http://sw.cyc.com/CycAnnotations_v1#> .
+@prefix csw: <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix freebase: <http://rdf.freebase.com/ns/> .
+@prefix opencyc: <http://sw.opencyc.org/concept/> .
+@prefix cyc: <http://sw.cyc.com/concept/> .
+@prefix ctag: <http://commontag.org/ns#> .
+# RDF data export created by PoolParty.
+# This file contains a hierarchical subtree of a SKOS thesaurus.
+# Export date: Thu Apr 29 13:30:32 CEST 2021
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/39_OrdinaPersonen> csw:hierarchyRoot "true"^^xsd:boolean;
+csw:hierarchyRootType skos:ConceptScheme;
+a skos:ConceptScheme;
+dcterms:creator <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:title "Ordina Personen"@nl;
+dcterms:created "2020-04-29T13:16:36.585Z"^^xsd:dateTime;
+dcterms:modified "2020-07-10T11:36:07.235Z"^^xsd:dateTime;
+dcterms:description "Een gedeeld begrippenkader"@nl;
+dcterms:subject "ESDM Begrippenkaders"@nl;
+dcterms:publisher <https://ordina.poolparty.biz/user/Ordina>;
+skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339_Demografie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/339_Demografie> a skos:Concept;
+skos:prefLabel "Demografie"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/103_Leeftijd>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/282_Functie>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/333_Beroep>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/335_Geslacht>;
+skos:definition "Demografie omvat de studie van de omvang, de structuur en de spreiding van de bevolking, en hoe de bevolking in tijd verandert door geboorten, sterfgevallen, migratie en veroudering. ..."@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T09:42:07.465Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/333_Beroep> a skos:Concept;
+skos:prefLabel "Beroep"@nl;
+skos:definition "Een beroep of vak, ook wel aangeduid als stiel, metier (van het Franse 'métier') of professie, is een samenhangend geheel van arbeidstaken die voor de uitvoering een bepaalde vakkennis en -kunde vereisen, en dat losstaand van de individuele beroepsbeoefenaar kan voortbestaan en voor de maatschappij herkenbaar is."@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T09:40:14.929Z"^^xsd:dateTime;
+skos:exactMatch <http://nl.dbpedia.org/resource/Categorie:Beroep> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/335_Geslacht> a skos:Concept;
+skos:prefLabel "Geslacht"@nl;
+skos:definition "sekse, het man of vrouw zijn."@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T09:43:31.551Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/282_Functie> a skos:Concept;
+skos:prefLabel "Functie"@nl;
+skos:definition "Een functie is de taak die iemand uitoefent of de werking van iets. ... Een functie van een persoon houdt verband met het beroep dat die persoon uitoefent. De mate van verantwoordelijkheid geeft daarbij aan of iemand over een lage of hoge functie beschikt."@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T09:42:39.633Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/103_Leeftijd> a skos:Concept;
+skos:prefLabel "Leeftijd"@nl;
+skos:definition "de tijd die iemand leeft of geleefd heeft, het totaal aantal levensjaren of een bepaald tijdstip in iemands leven."@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T09:43:46.580Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/39_OrdinaPersonen> skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281_Goed> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/281_Goed> a skos:Concept;
+skos:prefLabel "Goed"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/292_Gebouw>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/331_Muziekinstrument>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/61_Huis>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/62_Auto>;
+skos:definition "Goederen zijn alle zaken en alle vermogensrechten"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:23:01.795Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/61_Huis> a skos:Concept;
+skos:prefLabel "Huis"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/331_Muziekinstrument> a skos:Concept;
+skos:prefLabel "Muziekinstrument"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/292_Gebouw> a skos:Concept;
+skos:prefLabel "Gebouw"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/62_Auto> a skos:Concept;
+skos:prefLabel "Auto"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/39_OrdinaPersonen> skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288_Groep> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/288_Groep> a skos:Concept;
+skos:prefLabel "Groep"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/285_Gezin>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/289_Kerkgenootschap>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/290_Band>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/291_Bedrijf>;
+skos:definition "aantal min of meer bijeen horende personen"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:23:27.119Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/285_Gezin> a skos:Concept;
+skos:prefLabel "Gezin"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/289_Kerkgenootschap> a skos:Concept;
+skos:prefLabel "Kerkgenootschap"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/291_Bedrijf> a skos:Concept;
+skos:prefLabel "Bedrijf"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/290_Band> a skos:Concept;
+skos:prefLabel "Band"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/39_OrdinaPersonen> skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/293_LevendOrganisme> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/293_LevendOrganisme> a skos:Concept;
+skos:prefLabel "Levend organisme"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/286_Persoon>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/294_Huisdier>;
+skos:definition "Een organisme of levend wezen is een levende, materiële entiteit met een eigen stofwisseling (metabolisme). Zo zijn dieren (en mensen), schimmels, planten, algen en bacteriën organismen. Virussen en prionen worden in het algemeen niet als organismen beschouwd."@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:23:52.891Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/286_Persoon> a skos:Concept;
+skos:prefLabel "Persoon"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/294_Huisdier> a skos:Concept;
+skos:prefLabel "Huisdier"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/39_OrdinaPersonen> skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/295_Situatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/295_Situatie> a skos:Concept;
+skos:prefLabel "Situatie"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/296_Gezinssituatie>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/313_Werksituatie>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/327_Woonsituatie>;
+skos:definition "hoe de zaken er voorliggen, toestand"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:30:00.996Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/296_Gezinssituatie> a skos:Concept;
+skos:prefLabel "Gezinssituatie"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/313_Werksituatie> a skos:Concept;
+skos:prefLabel "Werksituatie"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/327_Woonsituatie> a skos:Concept;
+skos:prefLabel "Woonsituatie"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/39_OrdinaPersonen> skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44_Locatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/44_Locatie> a skos:Concept;
+skos:prefLabel "Locatie"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/297_Plaats>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/298_Land>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/299_Provincie>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/300_Adres>;
+skos:definition "In de geografie is de locatie een positie of punt in de ruimte, uitgedrukt relatief ten opzichte van een ander punt of ding. Een absolute locatie kan vaak worden gedefinieerd met behulp van cartesiaanse coördinaten, zoals gebruikmaking van specifieke breedtegraad en lengtegraad."@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:24:17.117Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/299_Provincie> a skos:Concept;
+skos:prefLabel "Provincie"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/297_Plaats> a skos:Concept;
+skos:prefLabel "Plaats"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/301_Stad>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/302_Dorp>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/303_Buurtschap>;
+skos:definition "Een plaats of woonplaats is een locatie waar een groepering van bebouwing wordt gevonden en waar meerdere mensen bij elkaar wonen. De grootte en het belang van plaatsen kan verschillen"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:28:04.238Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/301_Stad> a skos:Concept;
+skos:prefLabel "Stad"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/303_Buurtschap> a skos:Concept;
+skos:prefLabel "Buurtschap"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/302_Dorp> a skos:Concept;
+skos:prefLabel "Dorp"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/298_Land> a skos:Concept;
+skos:prefLabel "Land"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/300_Adres> a skos:Concept;
+skos:prefLabel "Adres"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/341_Woonadres>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/342_Thuisadres>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/343_Kantooradres>;
+skos:definition "adres (het; o; meervoud: adressen) 1(op poststukken) aanduiding waar iets zich bevindt"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:26:49.128Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/341_Woonadres> a skos:Concept;
+skos:prefLabel "Woonadres"@nl;
+skos:definition "adres waar men woont"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:24:53.798Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/342_Thuisadres> a skos:Concept;
+skos:prefLabel "Thuisadres"@nl;
+skos:definition "adres die men als 'thuis' benoemd"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:25:37.596Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/343_Kantooradres> a skos:Concept;
+skos:prefLabel "Kantooradres"@nl;
+skos:definition "adres waar men het merendeel van de tijd werkt "@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:26:25.772Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/39_OrdinaPersonen> skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie> a skos:Concept;
+skos:prefLabel "Relatie"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/307_GevoelRelatie>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/309_ActiviteitRelatie>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/311_Locatierelatie>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/317_GroepRelatie>;
+skos:definition "Een relatie, verhouding of betrekking is een verband tusseneen persoon en iets anders, zoals een activiteit, een locatie of een ander persoon"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:29:30.131Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/309_ActiviteitRelatie> a skos:Concept;
+skos:prefLabel "ActiviteitRelatie"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/310_Beoefend> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/310_Beoefend> a skos:Concept;
+skos:prefLabel "Beoefend"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> a skos:Concept;
+skos:prefLabel "PersoonRelatie"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/305_Vriend>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/306_Vriendin>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/334_Gezinslid>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/52_Broer>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/53_Moeder>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/54_Vader>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/55_Oma>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/56_Opa>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/57_Kind> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/334_Gezinslid> a skos:Concept;
+skos:prefLabel "Gezinslid"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/55_Oma> a skos:Concept;
+skos:prefLabel "Oma"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/56_Opa> a skos:Concept;
+skos:prefLabel "Opa"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/57_Kind> a skos:Concept;
+skos:prefLabel "Kind"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/52_Broer> a skos:Concept;
+skos:prefLabel "Broer"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/53_Moeder> a skos:Concept;
+skos:prefLabel "Moeder"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/54_Vader> a skos:Concept;
+skos:prefLabel "Vader"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/305_Vriend> a skos:Concept;
+skos:prefLabel "Vriend"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/306_Vriendin> a skos:Concept;
+skos:prefLabel "Vriendin"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/317_GroepRelatie> a skos:Concept;
+skos:prefLabel "GroepRelatie"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/318_OnderdeelVan>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/319_Leider>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/332_Werkgever> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/319_Leider> a skos:Concept;
+skos:prefLabel "Leider"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/318_OnderdeelVan> a skos:Concept;
+skos:prefLabel "OnderdeelVan"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/332_Werkgever> a skos:Concept;
+skos:prefLabel "Werkgever"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/307_GevoelRelatie> a skos:Concept;
+skos:prefLabel "GevoelRelatie"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/308_HoudVan>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/314_HekelAan> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/314_HekelAan> a skos:Concept;
+skos:prefLabel "HekelAan"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/308_HoudVan> a skos:Concept;
+skos:prefLabel "HoudVan"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/311_Locatierelatie> a skos:Concept;
+skos:prefLabel "Locatierelatie"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/312_Geboorteplaats>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/315_Thuis>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/316_Kantoor> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/315_Thuis> a skos:Concept;
+skos:prefLabel "Thuis"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/312_Geboorteplaats> a skos:Concept;
+skos:prefLabel "Geboorteplaats"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/316_Kantoor> a skos:Concept;
+skos:prefLabel "Kantoor"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/39_OrdinaPersonen> skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/46_Activiteiten> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/46_Activiteiten> a skos:Concept;
+skos:prefLabel "Activiteiten"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/63_Hobby>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/333_Beroep> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/63_Hobby> a skos:Concept;
+skos:prefLabel "Hobby"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/330_MuziekMaken>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/64_Voetbal>;
+skos:definition "Onder een hobby (liefhebberij) wordt in het algemeen een ontspannende activiteit verstaan, die men met enige regelmaat in zijn vrije tijd uitoefent. ... Hobby's worden door jong en oud uitgeoefend uit interesse en voor het plezier, niet als betaald werk."@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T09:40:31.631Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/330_MuziekMaken> a skos:Concept;
+skos:prefLabel "Muziek maken"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/64_Voetbal> a skos:Concept;
+skos:prefLabel "Voetbal"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/39_OrdinaPersonen> skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/47_Gebeurtenissen> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/47_Gebeurtenissen> a skos:Concept;
+skos:prefLabel "Gebeurtenissen"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/337_Scheiden>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/338_Overlijden>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/60_Trouwen>;
+skos:definition "In de gewone betekenis is een gebeurtenis een opmerkelijk voorval, zoals een glas dat stukvalt, of een ontmoeting tussen twee personen. In het eenvoudigste geval, en bij benadering, vindt een gebeurtenis plaats op één plaats en één tijd"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:21:59.016Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/338_Overlijden> a skos:Concept;
+skos:prefLabel "Overlijden"@nl;
+skos:definition "De dood is een onomkeerbare toestand waarbij een voorheen levend organisme niet meer groeit en geen stofwisseling of andere actieve levensfuncties meer heeft."@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:22:19.229Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/337_Scheiden> a skos:Concept;
+skos:prefLabel "Scheiden"@nl;
+skos:definition "Met scheiding wordt hier bedoeld: de beëindiging van een relatie tussen twee samenlevende partners."@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:22:34.411Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/60_Trouwen> a skos:Concept;
+skos:prefLabel "Trouwen"@nl;
+skos:definition "Trouwen is het aangaan van een huwelijk of in het huwelijk treden."@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:22:45.094Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/39_OrdinaPersonen> skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/45_Datum/Tijd> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/45_Datum/Tijd> a skos:Concept;
+skos:prefLabel "Datum/Tijd"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/58_Geboortedatum>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/59_Trouwdatum>;
+skos:definition "Tijd in klassieke zin is het verschijnsel dat gebeurtenissen geordend kunnen worden; dat van een gebeurtenis gezegd kan worden dat deze na of voor een andere gebeurtenis plaatsvindt. Met het begrip tijd kan een bepaald moment of tijdstip worden aangeduid, maar ook een tijdsduur."@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T09:40:54.833Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/59_Trouwdatum> a skos:Concept;
+skos:prefLabel "Trouwdatum"@nl;
+skos:definition " dag waarop je met je partner trouwt of getrouwd bent"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T09:41:44.167Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/58_Geboortedatum> a skos:Concept;
+skos:prefLabel "Geboortedatum"@nl;
+skos:definition "Iemands geboortedatum is de datum van de bevalling waarbij hij-zij geboren wordt-is."@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T09:41:17.879Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/39_OrdinaPersonen> skos:hasTopConcept <https://ordina.poolparty.biz/ProfessionalstrainingESDM/72_Eigenschappen> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/72_Eigenschappen> a skos:Concept;
+skos:prefLabel "Eigenschappen"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/75_Fysiek>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/74_Karakter>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/96_Identificerend>;
+skos:definition "Een eigenschap of kenmerk is een verschijnsel dat typisch is voor een bepaalde persoon"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:19:38.636Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/74_Karakter> a skos:Concept;
+skos:prefLabel "Karakter"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/340_Spontaan>;
+skos:definition "Karakter of inborst is de combinatie van vaste innerlijke eigenschappen of karaktertrekken van een persoon"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:21:07.221Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/340_Spontaan> a skos:Concept;
+skos:prefLabel "Spontaan"@nl;
+skos:definition "uit een opwelling voortkomend, niet uitgelokt of door een ander teweeggebracht"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:21:33.044Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/96_Identificerend> a skos:Concept;
+skos:prefLabel "Identificerend"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/99_Naam>;
+skos:definition "Identificerende eigenschappen zijn eigenschappen waaraan je een persoon kan identificeren"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:20:48.371Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/99_Naam> a skos:Concept;
+skos:prefLabel "Naam"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/101_Achternaam>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/324_Voornaam>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/325_Tussenvoegsel> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/324_Voornaam> a skos:Concept;
+skos:prefLabel "Voornaam"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/101_Achternaam> a skos:Concept;
+skos:prefLabel "Achternaam"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/325_Tussenvoegsel> a skos:Concept;
+skos:prefLabel "Tussenvoegsel"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/75_Fysiek> a skos:Concept;
+skos:prefLabel "Fysiek"@nl;
+skos:narrower <https://ordina.poolparty.biz/ProfessionalstrainingESDM/322_Lengte>,<https://ordina.poolparty.biz/ProfessionalstrainingESDM/323_Haarkleur>;
+skos:definition "wat met je lijf te maken heeft"@nl;
+dcterms:contributor <https://ordina.poolparty.biz/user/adreuijl>;
+dcterms:modified "2021-04-29T11:20:01.674Z"^^xsd:dateTime .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/322_Lengte> a skos:Concept;
+skos:prefLabel "Lengte"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/323_Haarkleur> a skos:Concept;
+skos:prefLabel "Haarkleur"@nl .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/319_Leider> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/317_GroepRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/64_Voetbal> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/63_Hobby> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/101_Achternaam> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/99_Naam> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/63_Hobby> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/46_Activiteiten> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/55_Oma> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/322_Lengte> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/75_Fysiek> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/285_Gezin> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288_Groep> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/54_Vader> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/289_Kerkgenootschap> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288_Groep> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/298_Land> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44_Locatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/290_Band> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288_Groep> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/341_Woonadres> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/300_Adres> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/59_Trouwdatum> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/45_Datum/Tijd> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/312_Geboorteplaats> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/311_Locatierelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/61_Huis> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281_Goed> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/296_Gezinssituatie> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/295_Situatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/291_Bedrijf> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/288_Groep> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/292_Gebouw> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281_Goed> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/318_OnderdeelVan> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/317_GroepRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/343_Kantooradres> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/300_Adres> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/74_Karakter> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/72_Eigenschappen> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/323_Haarkleur> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/75_Fysiek> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/103_Leeftijd> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339_Demografie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/60_Trouwen> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/47_Gebeurtenissen> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/311_Locatierelatie> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/342_Thuisadres> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/300_Adres> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/300_Adres> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44_Locatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/53_Moeder> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/99_Naam> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/96_Identificerend> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/62_Auto> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281_Goed> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/324_Voornaam> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/99_Naam> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/297_Plaats> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44_Locatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/302_Dorp> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/297_Plaats> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/286_Persoon> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/293_LevendOrganisme> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/313_Werksituatie> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/295_Situatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/58_Geboortedatum> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/45_Datum/Tijd> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/314_HekelAan> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/307_GevoelRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/335_Geslacht> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339_Demografie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/327_Woonsituatie> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/295_Situatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/301_Stad> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/297_Plaats> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/334_Gezinslid> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/338_Overlijden> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/47_Gebeurtenissen> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/330_MuziekMaken> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/63_Hobby> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/96_Identificerend> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/72_Eigenschappen> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/325_Tussenvoegsel> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/99_Naam> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/75_Fysiek> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/72_Eigenschappen> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/299_Provincie> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/44_Locatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/316_Kantoor> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/311_Locatierelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/310_Beoefend> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/309_ActiviteitRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/317_GroepRelatie> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/57_Kind> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/56_Opa> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/333_Beroep> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/46_Activiteiten> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/294_Huisdier> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/293_LevendOrganisme> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/333_Beroep> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339_Demografie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/315_Thuis> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/311_Locatierelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/306_Vriendin> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/337_Scheiden> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/47_Gebeurtenissen> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/331_Muziekinstrument> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/281_Goed> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/52_Broer> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/303_Buurtschap> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/297_Plaats> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/340_Spontaan> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/74_Karakter> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/309_ActiviteitRelatie> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/332_Werkgever> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/317_GroepRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/305_Vriend> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/51_PersoonRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/308_HoudVan> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/307_GevoelRelatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/307_GevoelRelatie> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/50_Relatie> .
+<https://ordina.poolparty.biz/ProfessionalstrainingESDM/282_Functie> skos:broader <https://ordina.poolparty.biz/ProfessionalstrainingESDM/339_Demografie> .

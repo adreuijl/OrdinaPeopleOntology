@@ -1,4 +1,5 @@
 # baseURI: http://linkeddata.ordina.nl/begrippen/
+# imports: http://www.w3.org/2004/02/skos/core
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -9,6 +10,7 @@
 
 <http://linkeddata.ordina.nl/begrippen/>
   a owl:Ontology ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
 .
 <https://ordina.poolparty.biz/ProfessionalstrainingESDM/101_Achternaam>
   a skos:Concept ;

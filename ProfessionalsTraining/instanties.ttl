@@ -62,6 +62,53 @@ instantie:
           ]
         ) ;
     ] ;
+  spin:query [
+      a sp:Select ;
+      sp:resultVariables (
+          [
+            sp:varName "s" ;
+          ]
+          [
+            sp:varName "p" ;
+          ]
+          [
+            sp:varName "o" ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object ontologie:Persoon ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "s" ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "o" ;
+              ] ;
+            sp:predicate [
+                sp:varName "p" ;
+              ] ;
+            sp:subject [
+                sp:varName "s" ;
+              ] ;
+          ]
+          [
+            a sp:TriplePath ;
+            sp:object <http://xmlns.com/foaf/0.1/knows> ;
+            sp:path [
+                a sp:ModPath ;
+                sp:modMax -2 ;
+                sp:modMin 0 ;
+                sp:subPath rdfs:subPropertyOf ;
+              ] ;
+            sp:subject [
+                sp:varName "p" ;
+              ] ;
+          ]
+        ) ;
+    ] ;
   owl:imports ontologie: ;
   owl:imports <http://spinrdf.org/spin> ;
   owl:versionInfo "Created with TopBraid Composer" ;
@@ -78,23 +125,225 @@ instantie:Adres_nieuwegein_schipperskade_66
   rdfs:label "Adres nieuwegein schipperskade 66" ;
   skos:prefLabel "Adres nieuwegein schipperskade 66" ;
 .
+instantie:Goed_Voetbal
+  a ontologie:Goed ;
+  ontologie:naam "Voetbal" ;
+  ontologie:omschrijving "ronde bal" ;
+  ontologie:primaireFunctie "Tegenaan schoppen" ;
+  rdfs:label "Goed Voetbal" ;
+  skos:prefLabel "Goed Voetbal" ;
+.
+instantie:Huisdier_MojoDeKat
+  a ontologie:Huisdier ;
+  ontologie:diersoort "Kat" ;
+  ontologie:geslacht "vrouw" ;
+  ontologie:naam "Mojo" ;
+  ontologie:omschrijving "Lief beest" ;
+  rdfs:label "Huisdier Mojo de kat" ;
+  skos:prefLabel "Huisdier Mojo de kat" ;
+.
+instantie:Huishouden_FamilieReuijl
+  a ontologie:Huishouden ;
+  ontologie:bestaatUit instantie:Persoon_AdReuijl ;
+  ontologie:bestaatUit instantie:Persoon_LeviReuijl ;
+  ontologie:bestaatUit instantie:Persoon_LucaReuijl ;
+  ontologie:bestaatUit instantie:Persoon_RhodeReuijl ;
+  ontologie:bezit instantie:Huisdier_MojoDeKat ;
+  ontologie:heeftAdres instantie:Adres_BeekbergenLoenenseWeg101 ;
+  rdfs:label "Huishouden Familie reuijl" ;
+  skos:prefLabel "Huishouden Familie reuijl" ;
+.
 instantie:Persoon_AdReuijl
   a ontologie:Persoon ;
-  ontologie:heeftPleegkind instantie:Persoon_PleegkindTiffany ;
+  ontologie:achternaam "Reuijl" ;
+  ontologie:beoefent instantie:Voetbal_Hobby ;
+  ontologie:burgelijkestaat "gehuwd" ;
+  ontologie:emailadres "adreuijl@gmail.com" ;
+  ontologie:geboortedatum "1987-08-28"^^xsd:date ;
+  ontologie:geslacht "man" ;
+  ontologie:haar true ;
+  ontologie:heeftKind instantie:Persoon_LucaReuijl ;
+  ontologie:heeftWerk instantie:Werk_OrdinaBusinessConsultant2 ;
   ontologie:heeftWoonAdres instantie:Adres_BeekbergenLoenenseWeg101 ;
+  ontologie:huisnummer 101 ;
+  ontologie:kentPersoon instantie:Persoon_IngridThurlings ;
+  ontologie:kentPersoon instantie:Persoon_LeviReuijl ;
+  ontologie:kentPersoon instantie:Persoon_LucaReuijl ;
+  ontologie:kentPersoon instantie:Persoon_RhodeReuijl ;
+  ontologie:leeftijd 34 ;
+  ontologie:lengte 187 ;
+  ontologie:voornaam "Ad" ;
   rdfs:label "Persoon Ad reuijl" ;
   skos:prefLabel "Persoon Ad reuijl" ;
 .
-instantie:Persoon_PleegkindTiffany
+instantie:Persoon_IngridThurlings
   a ontologie:Persoon ;
-  rdfs:label "Persoon Pleegkind tiffany" ;
-  skos:prefLabel "Persoon Pleegkind tiffany" ;
+  ontologie:achternaam "thurlings" ;
+  ontologie:kentPersoon instantie:Persoon_AdReuijl ;
+  ontologie:kentPersoon instantie:Persoon_VriendinXVanIngrid ;
+  rdfs:label "Persoon Ingrid thurlings" ;
+  skos:prefLabel "Persoon Ingrid thurlings" ;
 .
-instantie:Persoon_TestPersoon
+instantie:Persoon_LeviReuijl
   a ontologie:Persoon ;
-  ontologie:achternaam "BLABLA" ;
-  ontologie:heeftAdres instantie:Adres_nieuwegein_schipperskade_66 ;
-  ontologie:heeftAdres <http://test.nl/uri/adres> ;
-  rdfs:label "Persoon Test persoon" ;
-  skos:prefLabel "Persoon Test persoon" ;
+  rdfs:label "Persoon Levi reuijl" ;
+  skos:prefLabel "Persoon Levi reuijl" ;
+.
+instantie:Persoon_LucaReuijl
+  a ontologie:Persoon ;
+  ontologie:achternaam "Reuijl" ;
+  ontologie:geboortedatum "2021-08-09"^^xsd:date ;
+  rdfs:label "Persoon Luca reuijl" ;
+  skos:prefLabel "Persoon Luca reuijl" ;
+.
+instantie:Persoon_RhodeReuijl
+  a ontologie:Persoon ;
+  rdfs:label "Persoon Rhode reuijl" ;
+  skos:prefLabel "Persoon Rhode reuijl" ;
+.
+instantie:Persoon_VriendinXVanIngrid
+  a ontologie:Persoon ;
+  ontologie:achternaam "testachternaam" ;
+  ontologie:leeftijd 35 ;
+  ontologie:naam "testvoornaam" ;
+  rdfs:label "Persoon Vriendin XVan ingrid" ;
+  skos:prefLabel "Persoon Vriendin XVan ingrid" ;
+.
+instantie:Voetbal_Hobby
+  a ontologie:Activiteit ;
+  ontologie:heeftType ontologie:ActiviteitType_Hobby ;
+  rdfs:label "Voetbal" ;
+  skos:prefLabel "Voetbal" ;
+.
+instantie:Werk_OrdinaBusinessConsultant2
+  a ontologie:Werk ;
+  ontologie:functie "Ld specialist" ;
+  ontologie:naam "Semantisch modelleur" ;
+  ontologie:officieleNaam "Architect" ;
+  ontologie:omschrijving "Leuk werk" ;
+  ontologie:vakgebied "IT" ;
+  ontologie:werkgever "Ordina" ;
+  rdfs:label "Business Consult " ;
+  skos:prefLabel "Business Consult " ;
+.
+ontologie:Persoon
+  spin:query [
+      a sp:Select ;
+      sp:distinct true ;
+      sp:resultVariables (
+          [
+            sp:varName "persoon" ;
+          ]
+        ) ;
+      sp:where (
+          [
+            a sp:Union ;
+            sp:elements (
+                (
+                  [
+                    sp:object [
+                        sp:varName "dbpPerson" ;
+                      ] ;
+                    sp:predicate owl:equivalentClass ;
+                    sp:subject ontologie:Persoon ;
+                  ]
+                  [
+                    sp:object ontologie:Persoon ;
+                    sp:predicate rdf:type ;
+                    sp:subject [
+                        sp:varName "persoon" ;
+                      ] ;
+                  ]
+                  [
+                    a sp:Optional ;
+                    sp:elements (
+                        [
+                          sp:object [
+                              sp:varName "activiteit" ;
+                            ] ;
+                          sp:predicate ontologie:beoefent ;
+                          sp:subject [
+                              sp:varName "x" ;
+                            ] ;
+                        ]
+                        [
+                          sp:object [
+                              sp:varName "activiteitType" ;
+                            ] ;
+                          sp:predicate ontologie:heeftType ;
+                          sp:subject [
+                              sp:varName "activiteit" ;
+                            ] ;
+                        ]
+                      ) ;
+                  ]
+                )
+                (
+                  [
+                    a sp:Service ;
+                    sp:elements (
+                        [
+                          sp:object [
+                              sp:varName "dbpPerson" ;
+                            ] ;
+                          sp:predicate rdf:type ;
+                          sp:subject [
+                              sp:varName "persoon" ;
+                            ] ;
+                        ]
+                        [
+                          sp:object <http://xmlns.com/foaf/0.1/Person> ;
+                          sp:predicate rdf:type ;
+                          sp:subject [
+                              sp:varName "persoon" ;
+                            ] ;
+                        ]
+                      ) ;
+                    sp:serviceURI <http://dbpedia.org/sparql> ;
+                  ]
+                )
+              ) ;
+          ]
+        ) ;
+    ] ;
+  spin:query [
+      a sp:Select ;
+      sp:distinct true ;
+      sp:where (
+          [
+            sp:object ontologie:Persoon ;
+            sp:predicate rdf:type ;
+            sp:subject [
+                sp:varName "persoon" ;
+              ] ;
+          ]
+          [
+            a sp:TriplePath ;
+            sp:object [
+                sp:varName "KennisVanKennis" ;
+              ] ;
+            sp:path [
+                a sp:SeqPath ;
+                sp:path1 <http://xmlns.com/foaf/0.1/knows> ;
+                sp:path2 <http://xmlns.com/foaf/0.1/knows> ;
+              ] ;
+            sp:subject [
+                sp:varName "persoon" ;
+              ] ;
+          ]
+          [
+            a sp:Filter ;
+            sp:expression [
+                a sp:ne ;
+                sp:arg1 [
+                    sp:varName "KennisVanKennis" ;
+                  ] ;
+                sp:arg2 [
+                    sp:varName "persoon" ;
+                  ] ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  owl:equivalentClass <http://xmlns.com/foaf/0.1/Person> ;
 .
